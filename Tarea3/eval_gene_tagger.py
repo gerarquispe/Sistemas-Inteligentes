@@ -1,63 +1,33 @@
-#! /usr/bin/python
-
 __author__="Daniel Bauer <bauer@cs.columbia.edu>"
 __date__ ="$Sep 29, 2011"
 
 import sys
-
-
-"""
-Evaluate gene tagger output by comparing it to a gold standard file.
-
-Running the script on your tagger output like this
-
-    python eval_gene_tagger.py gene_dev.key your_tagger_output.dat
-
-will generate a table of results like this:
-
-    Found 14071 GENES. Expected 5942 GENES; Correct: 3120.
-
-		 precision 	recall 		F1-Score
-    GENE:	 0.433367	0.231270	0.301593
-
-Adopted from original named entity evaluation.
-
-"""
-
 def corpus_iterator(corpus_file, with_logprob = False):
-    """
-    Get an iterator object over the corpus file. The elements of the
-    iterator contain (word, ne_tag) tuples. Blank lines, indicating
-    sentence boundaries return (None, None).
-    """
     l = corpus_file.readline()    
     tagfield = with_logprob and -2 or -1
 
     try:
         while l:
             line = l.strip()
-            if line: # Nonempty line
-                # Extract information from line.
-                # Each line has the format
-                # word ne_tag [log_prob]
+            if line:
                 fields = line.split(" ")
                 ne_tag = fields[tagfield]
                 word = " ".join(fields[:tagfield])
                 yield word, ne_tag
-            else: # Empty line
+            else: 
                 yield (None, None)
             l = corpus_file.readline()
     except IndexError:
-        sys.stderr.write("Could not read line: \n")
+        sys.stderr.write("No se puede leer la linea: \n")
         sys.stderr.write("\n%s" % line)
         if with_logprob:
-            sys.stderr.write("Did you forget to output log probabilities in the prediction file?\n")
+            sys.stderr.write("Usted olvido su salida de probabilidad en la prediccion\n")
         sys.exit(1)
 
 
 class NeTypeCounts(object):
     """
-    Stores true/false positive/negative counts for each NE type.
+    Guarda true/false positive/negative  contando para cada tipo de NE
     """
 
     def __init__(self):
@@ -78,7 +48,7 @@ class NeTypeCounts(object):
 
 class Evaluator(object):
     """
-    Stores global true/false positive/negative counts. 
+    Guarda true/false positive/negative
     """
 
 
@@ -90,18 +60,11 @@ class Evaluator(object):
         self.fp = 0        
         self.fn = 0
 
-        # Initialize an object that counts true/false positives/negatives
-        # for each NE class
         self.class_counts = {}
         for c in self.ne_classes:
             self.class_counts[c] = NeTypeCounts()
 
     def compare(self, gold_standard, prediction):
-        """
-        Compare the prediction against a gold standard. Both objects must be
-        generator or iterator objects that return a (word, ne_tag) tuple at a
-        time.
-        """
 
         # Define a couple of tags indicating the status of each stream
         curr_pred_type = None # prediction stream was previously in a named entity

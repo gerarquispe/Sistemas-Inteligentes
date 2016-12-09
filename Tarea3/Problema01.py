@@ -14,18 +14,18 @@ def train(train_data_filename, rare_train_data_filename, hmm_model_filename):
         rare_words,
         util.rare_words_rule_p1)
 
-    print '3. train hmm model again using the new train data (with RARE_TAG)'
+    print '3. Entrenamiento modelo hmm de nuevo utilizando la nueva data (con RARE_TAG)'
     hmm_model_rare = SimpleTagger(3)
     hmm_model_rare.train(file(rare_train_data_filename))
     hmm_model_rare.write_counts(file(hmm_model_filename, 'w'))
 
 
 def tag(test_data_filename, result_filename, hmm_model_filename):
-    print '1. load Hmm model'
+    print '1. Cargar Hmm '
     tagger = SimpleTagger(3)
     tagger.read_counts(file(hmm_model_filename))
 
-    print '2. tag test file'
+    print '2. Prueba de tag'
     tagger.tag(test_data_filename, result_filename)
 
 

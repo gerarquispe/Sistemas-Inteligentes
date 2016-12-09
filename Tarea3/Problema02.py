@@ -4,7 +4,7 @@ import util
 DEBUG = False
 
 def train(train_data_filename, rare_train_data_filename, hmm_model_filename, rare_words_rule):
-    print '1. Mode lo de entrenamiento hmm'
+    print '1. Modo entrenamiento hmm'
     hmm_model = ViterbiTagger(3)
     hmm_model.rare_words_rule = rare_words_rule
     hmm_model.train(file(train_data_filename))
@@ -23,7 +23,7 @@ def train(train_data_filename, rare_train_data_filename, hmm_model_filename, rar
 
 
 def tag(test_data_filename, result_filename, hmm_model_filename):
-    print '1. cargando el modelo Hmm'
+    print '1. Cargando el modelo Hmm'
     tagger = ViterbiTagger(3)
     tagger.read_counts(file(hmm_model_filename))
 

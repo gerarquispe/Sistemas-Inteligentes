@@ -1,5 +1,3 @@
-#! /usr/bin/python
-
 __author__ = "ping.zou"
 __date__ = "$March 16, 2013"
 
@@ -9,13 +7,13 @@ import util
 from decimal import Decimal
 
 """
-extend Hmm provided by assigments
+Extendiendo Hmm 
 """
 
 
 class Hmm_ex(Hmm):
     """
-    Store counts, and model params
+    Store counts, y modelo de params
     """
     def __init__(self, n=3):
         super(Hmm_ex, self).__init__(n)
@@ -31,13 +29,13 @@ class Hmm_ex(Hmm):
 
     def train(self, corpus_file):
         """
-        Count n-gram frequencies and emission probabilities from a corpus file.
+        Contarndo n-gram frecuencias y emisiones de probabilidades desde el corpus.
         """
         super(Hmm_ex, self).train(corpus_file)
         self.count_words()  # count(x)
-        self.get_rare_words(self.rare_word_threshold)  # rare word
+        self.get_rare_words(self.rare_word_threshold)  # Palabras raras
         self.cal_emission_param()  # e(x|y)
-        self.get_all_tags_and_words()  # get all tags and words
+        self.get_all_tags_and_words()  # obtener todos los tags y palabras
         self.cal_q_3_gram()  # q(y_i|y_i-2, y_i_1)
 
     def get_all_tags_and_words(self):
@@ -121,22 +119,22 @@ class Hmm_ex(Hmm):
 
 
 class SimpleTagger(Hmm_ex):
-    """docstring for SimpleTagger"""
+    """Doc de cadenas para el tagger simple"""
     def __init__(self, n=3):
         super(SimpleTagger, self).__init__(n)
 
     def tag(self, test_data_filename, result_filename):
-        # prepare output
+        # Preparando la salida
         output = file(result_filename, 'w')
-        # calcuate arg max e('_RARE_'|y)
+        # calculando el maximo arg max e('_RARE_'|y)
         max_e_rare_y, max_rare_y = -1.0, ''
         for tag in self.tags:
             e = self.emission_params[(util.RARE_TAG, tag)]
             if e > max_e_rare_y:
                 max_e_rare_y, max_rare_y = e, tag
-        # load test_data
+        # cargando el data test
         word_iterator = util.test_data_iterator(file(test_data_filename))
-        # tag
+        # etiquetado
         for word in word_iterator:
             max_e, max_y = -1.0, ''
             if word is not None:
@@ -153,12 +151,12 @@ class SimpleTagger(Hmm_ex):
 
 
 class ViterbiTagger(Hmm_ex):
-    """docstring for ViterbiTagger"""
+    """Documento de salida para ViterbiTagger"""
     def __init__(self, n=3):
         super(ViterbiTagger, self).__init__(n)
 
     def tag(self, test_data_file, result_file):
-        # get test sentence
+        # Obteniendo las oraciones de prueba
         sent_iterator = util.test_sent_iterator(
             util.test_data_iterator(test_data_file))
         for sent in sent_iterator:
@@ -169,9 +167,9 @@ class ViterbiTagger(Hmm_ex):
 
     def viterbi(self, sent):
         """
-        tag a sentence using Viterbi algorithm
-        apply only 3-gram
-        return tag sequence
+        etiquetando la sentencia usando el algoritmo de Viterbi
+        Aplicando 3-gramas
+        retornando una secuencia de etiquetas
         """
         n = len(sent)
         pi = []
@@ -180,7 +178,7 @@ class ViterbiTagger(Hmm_ex):
             pi.append(defaultdict(float))
             bp.append(defaultdict(str))
         pi[0][('*', '*')] = 1.0
-        # decode
+        # decodificando
         for k in range(1, n + 1):
             W = self.tags
             U = self.tags
@@ -217,8 +215,8 @@ class ViterbiTagger(Hmm_ex):
                     pi[k][(u, v)] = max_pi
                     bp[k][(u, v)] = max_w
             if util.DEBUG:
-                print '========================================='
-        # trace back
+                print '============================================'
+        
         U = self.tags
         V = self.tags
         max_pi, max_u, max_v = -1.0, '', ''

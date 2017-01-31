@@ -2,10 +2,10 @@
 
 ## Descripción
 Esta red convolucional utiliza pesos pre calculados producto de varias iteraciones, inicialmente corridas en 
-CPU y posteriormente cambiadas a GPU como se muestra en output´s.txt, una vez procesado 100 iteraciones guarda
+CPU y posteriormente cambiadas a GPU como se muestra en los output´s.txt, una vez procesado 1000 iteraciones guarda
 el resultado para cargarlo de nuevo en siguientes iteraciones.
 
-como se puede ver en el output5.txt se llego a 82.6% (8256 / 10000) de acertacion producto al hacer el testing.
+como se puede ver en el output5.txt se llego a 82.6% (8256 / 10000) de acertacion producto.
 el resultado es producto de hacer varias iteraciones.
 
 ## Instalación

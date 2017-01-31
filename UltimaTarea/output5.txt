@@ -1,0 +1,142 @@
+C:\python35\python.exe C:/Users/helpdesk/PycharmProjects/CNN_Cifar10/source.py
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\stream_executor\dso_loader.cc:128] successfully opened CUDA library cublas64_80.dll locally
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\stream_executor\dso_loader.cc:128] successfully opened CUDA library cudnn64_5.dll locally
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\stream_executor\dso_loader.cc:128] successfully opened CUDA library cufft64_80.dll locally
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\stream_executor\dso_loader.cc:128] successfully opened CUDA library nvcuda.dll locally
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\stream_executor\dso_loader.cc:128] successfully opened CUDA library curand64_80.dll locally
+Loading data: data/CIFAR-10/cifar-10-batches-py/batches.meta
+['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+Loading data: data/CIFAR-10/cifar-10-batches-py/data_batch_1
+Loading data: data/CIFAR-10/cifar-10-batches-py/data_batch_2
+Loading data: data/CIFAR-10/cifar-10-batches-py/data_batch_3
+Loading data: data/CIFAR-10/cifar-10-batches-py/data_batch_4
+Loading data: data/CIFAR-10/cifar-10-batches-py/data_batch_5
+Loading data: data/CIFAR-10/cifar-10-batches-py/test_batch
+Size of:
+- Training-set:		50000
+- Test-set:		10000
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:885] Found device 0 with properties: 
+name: GeForce GTX 750 Ti
+major: 5 minor: 0 memoryClockRate (GHz) 1.2545
+pciBusID 0000:01:00.0
+Total memory: 2.00GiB
+Free memory: 1.65GiB
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:906] DMA: 0 
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:916] 0:   Y 
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 750 Ti, pci bus id: 0000:01:00.0)
+Trying to restore last checkpoint ...
+Restored checkpoint from: checkpoints/cifar10_cnn-1022000
+linea 340
+Global Step: 1022100, Training Batch Accuracy:  98.4%
+Global Step: 1022200, Training Batch Accuracy:  93.8%
+Global Step: 1022300, Training Batch Accuracy:  96.9%
+Global Step: 1022400, Training Batch Accuracy:  98.4%
+Global Step: 1022500, Training Batch Accuracy: 100.0%
+Global Step: 1022600, Training Batch Accuracy:  92.2%
+Global Step: 1022700, Training Batch Accuracy:  95.3%
+Global Step: 1022800, Training Batch Accuracy:  93.8%
+Global Step: 1022900, Training Batch Accuracy:  95.3%
+Global Step: 1023000, Training Batch Accuracy:  98.4%
+Saved checkpoint.
+Global Step: 1023100, Training Batch Accuracy: 100.0%
+Global Step: 1023200, Training Batch Accuracy:  92.2%
+Global Step: 1023300, Training Batch Accuracy:  96.9%
+Global Step: 1023400, Training Batch Accuracy:  96.9%
+Global Step: 1023500, Training Batch Accuracy:  93.8%
+Global Step: 1023600, Training Batch Accuracy: 100.0%
+Global Step: 1023700, Training Batch Accuracy: 100.0%
+Global Step: 1023800, Training Batch Accuracy:  96.9%
+Global Step: 1023900, Training Batch Accuracy:  98.4%
+Global Step: 1024000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 1024100, Training Batch Accuracy:  98.4%
+Global Step: 1024200, Training Batch Accuracy:  96.9%
+Global Step: 1024300, Training Batch Accuracy:  98.4%
+Global Step: 1024400, Training Batch Accuracy: 100.0%
+Global Step: 1024500, Training Batch Accuracy:  96.9%
+Global Step: 1024600, Training Batch Accuracy:  96.9%
+Global Step: 1024700, Training Batch Accuracy:  89.1%
+Global Step: 1024800, Training Batch Accuracy:  95.3%
+Global Step: 1024900, Training Batch Accuracy:  95.3%
+Global Step: 1025000, Training Batch Accuracy:  98.4%
+Saved checkpoint.
+Global Step: 1025100, Training Batch Accuracy:  92.2%
+Global Step: 1025200, Training Batch Accuracy:  98.4%
+Global Step: 1025300, Training Batch Accuracy:  95.3%
+Global Step: 1025400, Training Batch Accuracy:  96.9%
+Global Step: 1025500, Training Batch Accuracy:  98.4%
+Global Step: 1025600, Training Batch Accuracy: 100.0%
+Global Step: 1025700, Training Batch Accuracy:  95.3%
+Global Step: 1025800, Training Batch Accuracy:  96.9%
+Global Step: 1025900, Training Batch Accuracy:  96.9%
+Global Step: 1026000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 1026100, Training Batch Accuracy:  93.8%
+Global Step: 1026200, Training Batch Accuracy:  98.4%
+Global Step: 1026300, Training Batch Accuracy:  96.9%
+Global Step: 1026400, Training Batch Accuracy:  95.3%
+Global Step: 1026500, Training Batch Accuracy:  95.3%
+Global Step: 1026600, Training Batch Accuracy:  96.9%
+Global Step: 1026700, Training Batch Accuracy:  98.4%
+Global Step: 1026800, Training Batch Accuracy:  98.4%
+Global Step: 1026900, Training Batch Accuracy:  96.9%
+Global Step: 1027000, Training Batch Accuracy: 100.0%
+Saved checkpoint.
+Global Step: 1027100, Training Batch Accuracy:  95.3%
+Global Step: 1027200, Training Batch Accuracy:  96.9%
+Global Step: 1027300, Training Batch Accuracy:  95.3%
+Global Step: 1027400, Training Batch Accuracy:  90.6%
+Global Step: 1027500, Training Batch Accuracy:  98.4%
+Global Step: 1027600, Training Batch Accuracy:  96.9%
+Global Step: 1027700, Training Batch Accuracy:  96.9%
+Global Step: 1027800, Training Batch Accuracy:  95.3%
+Global Step: 1027900, Training Batch Accuracy:  92.2%
+Global Step: 1028000, Training Batch Accuracy:  98.4%
+Saved checkpoint.
+Global Step: 1028100, Training Batch Accuracy:  96.9%
+Global Step: 1028200, Training Batch Accuracy:  95.3%
+Global Step: 1028300, Training Batch Accuracy: 100.0%
+Global Step: 1028400, Training Batch Accuracy:  96.9%
+Global Step: 1028500, Training Batch Accuracy:  93.8%
+Global Step: 1028600, Training Batch Accuracy:  96.9%
+Global Step: 1028700, Training Batch Accuracy: 100.0%
+Global Step: 1028800, Training Batch Accuracy:  93.8%
+Global Step: 1028900, Training Batch Accuracy: 100.0%
+Global Step: 1029000, Training Batch Accuracy:  98.4%
+Saved checkpoint.
+Global Step: 1029100, Training Batch Accuracy:  96.9%
+Global Step: 1029200, Training Batch Accuracy:  96.9%
+Global Step: 1029300, Training Batch Accuracy:  95.3%
+Global Step: 1029400, Training Batch Accuracy:  95.3%
+Global Step: 1029500, Training Batch Accuracy:  98.4%
+Global Step: 1029600, Training Batch Accuracy:  95.3%
+Global Step: 1029700, Training Batch Accuracy:  95.3%
+Global Step: 1029800, Training Batch Accuracy:  96.9%
+Global Step: 1029900, Training Batch Accuracy:  96.9%
+Global Step: 1030000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 1030100, Training Batch Accuracy:  95.3%
+Global Step: 1030200, Training Batch Accuracy:  98.4%
+Global Step: 1030300, Training Batch Accuracy:  93.8%
+Global Step: 1030400, Training Batch Accuracy:  95.3%
+Global Step: 1030500, Training Batch Accuracy: 100.0%
+Global Step: 1030600, Training Batch Accuracy:  93.8%
+Global Step: 1030700, Training Batch Accuracy:  96.9%
+Global Step: 1030800, Training Batch Accuracy: 100.0%
+Global Step: 1030900, Training Batch Accuracy:  98.4%
+Global Step: 1031000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 1031100, Training Batch Accuracy:  96.9%
+Global Step: 1031200, Training Batch Accuracy:  98.4%
+Global Step: 1031300, Training Batch Accuracy: 100.0%
+Global Step: 1031400, Training Batch Accuracy:  98.4%
+Global Step: 1031500, Training Batch Accuracy:  96.9%
+Global Step: 1031600, Training Batch Accuracy:  93.8%
+Global Step: 1031700, Training Batch Accuracy:  98.4%
+Global Step: 1031800, Training Batch Accuracy:  90.6%
+Global Step: 1031900, Training Batch Accuracy:  96.9%
+Global Step: 1032000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Time usage: 0:10:12
+Accuracy on Test-Set: 82.6% (8256 / 10000)
+Example errors:

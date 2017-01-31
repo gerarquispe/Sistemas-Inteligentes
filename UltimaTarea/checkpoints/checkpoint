@@ -1,0 +1,6 @@
+model_checkpoint_path: "cifar10_cnn-1019000"
+all_model_checkpoint_paths: "cifar10_cnn-1015000"
+all_model_checkpoint_paths: "cifar10_cnn-1016000"
+all_model_checkpoint_paths: "cifar10_cnn-1017000"
+all_model_checkpoint_paths: "cifar10_cnn-1018000"
+all_model_checkpoint_paths: "cifar10_cnn-1019000"

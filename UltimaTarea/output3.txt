@@ -1,0 +1,2232 @@
+C:\python35\python.exe C:/Users/helpdesk/PycharmProjects/CNN_Cifar10/source.py
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\stream_executor\dso_loader.cc:128] successfully opened CUDA library cublas64_80.dll locally
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\stream_executor\dso_loader.cc:128] successfully opened CUDA library cudnn64_5.dll locally
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\stream_executor\dso_loader.cc:128] successfully opened CUDA library cufft64_80.dll locally
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\stream_executor\dso_loader.cc:128] successfully opened CUDA library nvcuda.dll locally
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\stream_executor\dso_loader.cc:128] successfully opened CUDA library curand64_80.dll locally
+Loading data: data/CIFAR-10/cifar-10-batches-py/batches.meta
+['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+Loading data: data/CIFAR-10/cifar-10-batches-py/data_batch_1
+Loading data: data/CIFAR-10/cifar-10-batches-py/data_batch_2
+Loading data: data/CIFAR-10/cifar-10-batches-py/data_batch_3
+Loading data: data/CIFAR-10/cifar-10-batches-py/data_batch_4
+Loading data: data/CIFAR-10/cifar-10-batches-py/data_batch_5
+Loading data: data/CIFAR-10/cifar-10-batches-py/test_batch
+Size of:
+- Training-set:		50000
+- Test-set:		10000
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:885] Found device 0 with properties:
+name: GeForce GTX 750 Ti
+major: 5 minor: 0 memoryClockRate (GHz) 1.2545
+pciBusID 0000:01:00.0
+Total memory: 2.00GiB
+Free memory: 1.65GiB
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:906] DMA: 0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:916] 0:   Y
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 750 Ti, pci bus id: 0000:01:00.0)
+Trying to restore last checkpoint ...
+Restored checkpoint from: checkpoints/cifar10_cnn-405000
+linea 340
+Global Step: 405100, Training Batch Accuracy:  92.2%
+Global Step: 405200, Training Batch Accuracy:  98.4%
+Global Step: 405300, Training Batch Accuracy:  95.3%
+Global Step: 405400, Training Batch Accuracy:  95.3%
+Global Step: 405500, Training Batch Accuracy:  95.3%
+Global Step: 405600, Training Batch Accuracy:  90.6%
+Global Step: 405700, Training Batch Accuracy:  92.2%
+Global Step: 405800, Training Batch Accuracy:  93.8%
+Global Step: 405900, Training Batch Accuracy:  98.4%
+Global Step: 406000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 406100, Training Batch Accuracy:  96.9%
+Global Step: 406200, Training Batch Accuracy:  92.2%
+Global Step: 406300, Training Batch Accuracy:  95.3%
+Global Step: 406400, Training Batch Accuracy:  92.2%
+Global Step: 406500, Training Batch Accuracy:  95.3%
+Global Step: 406600, Training Batch Accuracy:  96.9%
+Global Step: 406700, Training Batch Accuracy:  96.9%
+Global Step: 406800, Training Batch Accuracy:  96.9%
+Global Step: 406900, Training Batch Accuracy:  92.2%
+Global Step: 407000, Training Batch Accuracy:  85.9%
+Saved checkpoint.
+Global Step: 407100, Training Batch Accuracy:  92.2%
+Global Step: 407200, Training Batch Accuracy:  93.8%
+Global Step: 407300, Training Batch Accuracy:  96.9%
+Global Step: 407400, Training Batch Accuracy:  95.3%
+Global Step: 407500, Training Batch Accuracy:  96.9%
+Global Step: 407600, Training Batch Accuracy:  96.9%
+Global Step: 407700, Training Batch Accuracy:  92.2%
+Global Step: 407800, Training Batch Accuracy:  96.9%
+Global Step: 407900, Training Batch Accuracy:  95.3%
+Global Step: 408000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 408100, Training Batch Accuracy:  95.3%
+Global Step: 408200, Training Batch Accuracy:  89.1%
+Global Step: 408300, Training Batch Accuracy:  93.8%
+Global Step: 408400, Training Batch Accuracy:  95.3%
+Global Step: 408500, Training Batch Accuracy:  95.3%
+Global Step: 408600, Training Batch Accuracy:  89.1%
+Global Step: 408700, Training Batch Accuracy:  90.6%
+Global Step: 408800, Training Batch Accuracy:  95.3%
+Global Step: 408900, Training Batch Accuracy:  95.3%
+Global Step: 409000, Training Batch Accuracy:  98.4%
+Saved checkpoint.
+Global Step: 409100, Training Batch Accuracy:  85.9%
+Global Step: 409200, Training Batch Accuracy:  95.3%
+Global Step: 409300, Training Batch Accuracy:  92.2%
+Global Step: 409400, Training Batch Accuracy:  92.2%
+Global Step: 409500, Training Batch Accuracy:  95.3%
+Global Step: 409600, Training Batch Accuracy:  95.3%
+Global Step: 409700, Training Batch Accuracy:  90.6%
+Global Step: 409800, Training Batch Accuracy:  92.2%
+Global Step: 409900, Training Batch Accuracy:  95.3%
+Global Step: 410000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 410100, Training Batch Accuracy:  92.2%
+Global Step: 410200, Training Batch Accuracy:  98.4%
+Global Step: 410300, Training Batch Accuracy:  95.3%
+Global Step: 410400, Training Batch Accuracy:  92.2%
+Global Step: 410500, Training Batch Accuracy:  93.8%
+Global Step: 410600, Training Batch Accuracy:  93.8%
+Global Step: 410700, Training Batch Accuracy:  90.6%
+Global Step: 410800, Training Batch Accuracy:  92.2%
+Global Step: 410900, Training Batch Accuracy:  95.3%
+Global Step: 411000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 411100, Training Batch Accuracy:  96.9%
+Global Step: 411200, Training Batch Accuracy:  89.1%
+Global Step: 411300, Training Batch Accuracy:  96.9%
+Global Step: 411400, Training Batch Accuracy:  98.4%
+Global Step: 411500, Training Batch Accuracy:  93.8%
+Global Step: 411600, Training Batch Accuracy:  95.3%
+Global Step: 411700, Training Batch Accuracy:  96.9%
+Global Step: 411800, Training Batch Accuracy:  92.2%
+Global Step: 411900, Training Batch Accuracy:  96.9%
+Global Step: 412000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 412100, Training Batch Accuracy:  96.9%
+Global Step: 412200, Training Batch Accuracy:  96.9%
+Global Step: 412300, Training Batch Accuracy:  92.2%
+Global Step: 412400, Training Batch Accuracy:  87.5%
+Global Step: 412500, Training Batch Accuracy:  96.9%
+Global Step: 412600, Training Batch Accuracy:  98.4%
+Global Step: 412700, Training Batch Accuracy:  92.2%
+Global Step: 412800, Training Batch Accuracy:  92.2%
+Global Step: 412900, Training Batch Accuracy:  95.3%
+Global Step: 413000, Training Batch Accuracy:  87.5%
+Saved checkpoint.
+Global Step: 413100, Training Batch Accuracy:  92.2%
+Global Step: 413200, Training Batch Accuracy:  95.3%
+Global Step: 413300, Training Batch Accuracy:  92.2%
+Global Step: 413400, Training Batch Accuracy:  96.9%
+Global Step: 413500, Training Batch Accuracy:  96.9%
+Global Step: 413600, Training Batch Accuracy:  96.9%
+Global Step: 413700, Training Batch Accuracy:  92.2%
+Global Step: 413800, Training Batch Accuracy:  95.3%
+Global Step: 413900, Training Batch Accuracy:  92.2%
+Global Step: 414000, Training Batch Accuracy:  92.2%
+Saved checkpoint.
+Global Step: 414100, Training Batch Accuracy:  96.9%
+Global Step: 414200, Training Batch Accuracy:  89.1%
+Global Step: 414300, Training Batch Accuracy:  93.8%
+Global Step: 414400, Training Batch Accuracy:  95.3%
+Global Step: 414500, Training Batch Accuracy:  90.6%
+Global Step: 414600, Training Batch Accuracy:  95.3%
+Global Step: 414700, Training Batch Accuracy:  89.1%
+Global Step: 414800, Training Batch Accuracy:  89.1%
+Global Step: 414900, Training Batch Accuracy:  96.9%
+Global Step: 415000, Training Batch Accuracy:  92.2%
+Saved checkpoint.
+Global Step: 415100, Training Batch Accuracy:  93.8%
+Global Step: 415200, Training Batch Accuracy:  96.9%
+Global Step: 415300, Training Batch Accuracy:  95.3%
+Global Step: 415400, Training Batch Accuracy:  90.6%
+Global Step: 415500, Training Batch Accuracy:  95.3%
+Global Step: 415600, Training Batch Accuracy:  96.9%
+Global Step: 415700, Training Batch Accuracy:  96.9%
+Global Step: 415800, Training Batch Accuracy:  85.9%
+Global Step: 415900, Training Batch Accuracy:  93.8%
+Global Step: 416000, Training Batch Accuracy:  92.2%
+Saved checkpoint.
+Global Step: 416100, Training Batch Accuracy:  95.3%
+Global Step: 416200, Training Batch Accuracy:  90.6%
+Global Step: 416300, Training Batch Accuracy:  95.3%
+Global Step: 416400, Training Batch Accuracy:  93.8%
+Global Step: 416500, Training Batch Accuracy:  92.2%
+Global Step: 416600, Training Batch Accuracy:  96.9%
+Global Step: 416700, Training Batch Accuracy:  96.9%
+Global Step: 416800, Training Batch Accuracy:  90.6%
+Global Step: 416900, Training Batch Accuracy:  92.2%
+Global Step: 417000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 417100, Training Batch Accuracy:  96.9%
+Global Step: 417200, Training Batch Accuracy:  95.3%
+Global Step: 417300, Training Batch Accuracy:  92.2%
+Global Step: 417400, Training Batch Accuracy:  96.9%
+Global Step: 417500, Training Batch Accuracy:  93.8%
+Global Step: 417600, Training Batch Accuracy:  95.3%
+Global Step: 417700, Training Batch Accuracy:  98.4%
+Global Step: 417800, Training Batch Accuracy:  95.3%
+Global Step: 417900, Training Batch Accuracy:  93.8%
+Global Step: 418000, Training Batch Accuracy:  90.6%
+Saved checkpoint.
+Global Step: 418100, Training Batch Accuracy:  82.8%
+Global Step: 418200, Training Batch Accuracy:  93.8%
+Global Step: 418300, Training Batch Accuracy:  92.2%
+Global Step: 418400, Training Batch Accuracy:  95.3%
+Global Step: 418500, Training Batch Accuracy:  90.6%
+Global Step: 418600, Training Batch Accuracy:  98.4%
+Global Step: 418700, Training Batch Accuracy:  95.3%
+Global Step: 418800, Training Batch Accuracy:  95.3%
+Global Step: 418900, Training Batch Accuracy:  96.9%
+Global Step: 419000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 419100, Training Batch Accuracy:  92.2%
+Global Step: 419200, Training Batch Accuracy:  93.8%
+Global Step: 419300, Training Batch Accuracy:  98.4%
+Global Step: 419400, Training Batch Accuracy:  96.9%
+Global Step: 419500, Training Batch Accuracy:  95.3%
+Global Step: 419600, Training Batch Accuracy:  93.8%
+Global Step: 419700, Training Batch Accuracy:  92.2%
+Global Step: 419800, Training Batch Accuracy:  95.3%
+Global Step: 419900, Training Batch Accuracy:  92.2%
+Global Step: 420000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 420100, Training Batch Accuracy:  93.8%
+Global Step: 420200, Training Batch Accuracy:  96.9%
+Global Step: 420300, Training Batch Accuracy:  90.6%
+Global Step: 420400, Training Batch Accuracy:  95.3%
+Global Step: 420500, Training Batch Accuracy:  95.3%
+Global Step: 420600, Training Batch Accuracy:  92.2%
+Global Step: 420700, Training Batch Accuracy:  92.2%
+Global Step: 420800, Training Batch Accuracy:  92.2%
+Global Step: 420900, Training Batch Accuracy:  90.6%
+Global Step: 421000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 421100, Training Batch Accuracy:  93.8%
+Global Step: 421200, Training Batch Accuracy:  96.9%
+Global Step: 421300, Training Batch Accuracy:  96.9%
+Global Step: 421400, Training Batch Accuracy:  96.9%
+Global Step: 421500, Training Batch Accuracy:  89.1%
+Global Step: 421600, Training Batch Accuracy:  90.6%
+Global Step: 421700, Training Batch Accuracy:  95.3%
+Global Step: 421800, Training Batch Accuracy:  90.6%
+Global Step: 421900, Training Batch Accuracy:  90.6%
+Global Step: 422000, Training Batch Accuracy:  92.2%
+Saved checkpoint.
+Global Step: 422100, Training Batch Accuracy:  96.9%
+Global Step: 422200, Training Batch Accuracy:  96.9%
+Global Step: 422300, Training Batch Accuracy:  89.1%
+Global Step: 422400, Training Batch Accuracy:  90.6%
+Global Step: 422500, Training Batch Accuracy:  93.8%
+Global Step: 422600, Training Batch Accuracy:  93.8%
+Global Step: 422700, Training Batch Accuracy:  95.3%
+Global Step: 422800, Training Batch Accuracy:  93.8%
+Global Step: 422900, Training Batch Accuracy:  93.8%
+Global Step: 423000, Training Batch Accuracy:  98.4%
+Saved checkpoint.
+Global Step: 423100, Training Batch Accuracy:  95.3%
+Global Step: 423200, Training Batch Accuracy:  98.4%
+Global Step: 423300, Training Batch Accuracy:  98.4%
+Global Step: 423400, Training Batch Accuracy:  95.3%
+Global Step: 423500, Training Batch Accuracy:  95.3%
+Global Step: 423600, Training Batch Accuracy:  95.3%
+Global Step: 423700, Training Batch Accuracy:  92.2%
+Global Step: 423800, Training Batch Accuracy:  87.5%
+Global Step: 423900, Training Batch Accuracy:  95.3%
+Global Step: 424000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 424100, Training Batch Accuracy:  95.3%
+Global Step: 424200, Training Batch Accuracy:  93.8%
+Global Step: 424300, Training Batch Accuracy:  96.9%
+Global Step: 424400, Training Batch Accuracy:  96.9%
+Global Step: 424500, Training Batch Accuracy:  92.2%
+Global Step: 424600, Training Batch Accuracy:  92.2%
+Global Step: 424700, Training Batch Accuracy:  93.8%
+Global Step: 424800, Training Batch Accuracy:  95.3%
+Global Step: 424900, Training Batch Accuracy:  95.3%
+Global Step: 425000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 425100, Training Batch Accuracy:  95.3%
+Global Step: 425200, Training Batch Accuracy:  95.3%
+Global Step: 425300, Training Batch Accuracy:  92.2%
+Global Step: 425400, Training Batch Accuracy:  95.3%
+Global Step: 425500, Training Batch Accuracy:  92.2%
+Global Step: 425600, Training Batch Accuracy:  90.6%
+Global Step: 425700, Training Batch Accuracy:  92.2%
+Global Step: 425800, Training Batch Accuracy:  90.6%
+Global Step: 425900, Training Batch Accuracy:  96.9%
+Global Step: 426000, Training Batch Accuracy:  90.6%
+Saved checkpoint.
+Global Step: 426100, Training Batch Accuracy:  93.8%
+Global Step: 426200, Training Batch Accuracy: 100.0%
+Global Step: 426300, Training Batch Accuracy:  96.9%
+Global Step: 426400, Training Batch Accuracy:  95.3%
+Global Step: 426500, Training Batch Accuracy:  98.4%
+Global Step: 426600, Training Batch Accuracy:  98.4%
+Global Step: 426700, Training Batch Accuracy:  93.8%
+Global Step: 426800, Training Batch Accuracy:  89.1%
+Global Step: 426900, Training Batch Accuracy:  95.3%
+Global Step: 427000, Training Batch Accuracy:  92.2%
+Saved checkpoint.
+Global Step: 427100, Training Batch Accuracy:  92.2%
+Global Step: 427200, Training Batch Accuracy:  96.9%
+Global Step: 427300, Training Batch Accuracy:  90.6%
+Global Step: 427400, Training Batch Accuracy:  90.6%
+Global Step: 427500, Training Batch Accuracy:  85.9%
+Global Step: 427600, Training Batch Accuracy:  92.2%
+Global Step: 427700, Training Batch Accuracy:  93.8%
+Global Step: 427800, Training Batch Accuracy:  95.3%
+Global Step: 427900, Training Batch Accuracy:  96.9%
+Global Step: 428000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 428100, Training Batch Accuracy:  93.8%
+Global Step: 428200, Training Batch Accuracy:  95.3%
+Global Step: 428300, Training Batch Accuracy:  84.4%
+Global Step: 428400, Training Batch Accuracy:  92.2%
+Global Step: 428500, Training Batch Accuracy:  95.3%
+Global Step: 428600, Training Batch Accuracy:  95.3%
+Global Step: 428700, Training Batch Accuracy:  89.1%
+Global Step: 428800, Training Batch Accuracy:  95.3%
+Global Step: 428900, Training Batch Accuracy:  93.8%
+Global Step: 429000, Training Batch Accuracy:  90.6%
+Saved checkpoint.
+Global Step: 429100, Training Batch Accuracy:  98.4%
+Global Step: 429200, Training Batch Accuracy:  95.3%
+Global Step: 429300, Training Batch Accuracy:  90.6%
+Global Step: 429400, Training Batch Accuracy:  89.1%
+Global Step: 429500, Training Batch Accuracy:  92.2%
+Global Step: 429600, Training Batch Accuracy:  90.6%
+Global Step: 429700, Training Batch Accuracy:  93.8%
+Global Step: 429800, Training Batch Accuracy:  96.9%
+Global Step: 429900, Training Batch Accuracy:  96.9%
+Global Step: 430000, Training Batch Accuracy: 100.0%
+Saved checkpoint.
+Global Step: 430100, Training Batch Accuracy:  98.4%
+Global Step: 430200, Training Batch Accuracy:  89.1%
+Global Step: 430300, Training Batch Accuracy:  95.3%
+Global Step: 430400, Training Batch Accuracy:  93.8%
+Global Step: 430500, Training Batch Accuracy:  93.8%
+Global Step: 430600, Training Batch Accuracy:  92.2%
+Global Step: 430700, Training Batch Accuracy:  92.2%
+Global Step: 430800, Training Batch Accuracy:  87.5%
+Global Step: 430900, Training Batch Accuracy:  89.1%
+Global Step: 431000, Training Batch Accuracy:  89.1%
+Saved checkpoint.
+Global Step: 431100, Training Batch Accuracy:  93.8%
+Global Step: 431200, Training Batch Accuracy:  92.2%
+Global Step: 431300, Training Batch Accuracy:  93.8%
+Global Step: 431400, Training Batch Accuracy: 100.0%
+Global Step: 431500, Training Batch Accuracy:  93.8%
+Global Step: 431600, Training Batch Accuracy:  93.8%
+Global Step: 431700, Training Batch Accuracy:  98.4%
+Global Step: 431800, Training Batch Accuracy:  95.3%
+Global Step: 431900, Training Batch Accuracy:  98.4%
+Global Step: 432000, Training Batch Accuracy:  90.6%
+Saved checkpoint.
+Global Step: 432100, Training Batch Accuracy:  90.6%
+Global Step: 432200, Training Batch Accuracy:  93.8%
+Global Step: 432300, Training Batch Accuracy:  95.3%
+Global Step: 432400, Training Batch Accuracy:  93.8%
+Global Step: 432500, Training Batch Accuracy:  95.3%
+Global Step: 432600, Training Batch Accuracy:  98.4%
+Global Step: 432700, Training Batch Accuracy: 100.0%
+Global Step: 432800, Training Batch Accuracy:  92.2%
+Global Step: 432900, Training Batch Accuracy:  90.6%
+Global Step: 433000, Training Batch Accuracy:  90.6%
+Saved checkpoint.
+Global Step: 433100, Training Batch Accuracy:  96.9%
+Global Step: 433200, Training Batch Accuracy:  93.8%
+Global Step: 433300, Training Batch Accuracy:  93.8%
+Global Step: 433400, Training Batch Accuracy:  93.8%
+Global Step: 433500, Training Batch Accuracy:  93.8%
+Global Step: 433600, Training Batch Accuracy:  95.3%
+Global Step: 433700, Training Batch Accuracy:  95.3%
+Global Step: 433800, Training Batch Accuracy:  93.8%
+Global Step: 433900, Training Batch Accuracy:  92.2%
+Global Step: 434000, Training Batch Accuracy:  92.2%
+Saved checkpoint.
+Global Step: 434100, Training Batch Accuracy:  95.3%
+Global Step: 434200, Training Batch Accuracy:  93.8%
+Global Step: 434300, Training Batch Accuracy:  96.9%
+Global Step: 434400, Training Batch Accuracy:  90.6%
+Global Step: 434500, Training Batch Accuracy:  96.9%
+Global Step: 434600, Training Batch Accuracy:  95.3%
+Global Step: 434700, Training Batch Accuracy:  96.9%
+Global Step: 434800, Training Batch Accuracy:  96.9%
+Global Step: 434900, Training Batch Accuracy:  92.2%
+Global Step: 435000, Training Batch Accuracy:  92.2%
+Saved checkpoint.
+Global Step: 435100, Training Batch Accuracy:  95.3%
+Global Step: 435200, Training Batch Accuracy:  96.9%
+Global Step: 435300, Training Batch Accuracy:  95.3%
+Global Step: 435400, Training Batch Accuracy:  96.9%
+Global Step: 435500, Training Batch Accuracy:  96.9%
+Global Step: 435600, Training Batch Accuracy:  96.9%
+Global Step: 435700, Training Batch Accuracy:  95.3%
+Global Step: 435800, Training Batch Accuracy:  95.3%
+Global Step: 435900, Training Batch Accuracy:  93.8%
+Global Step: 436000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 436100, Training Batch Accuracy:  95.3%
+Global Step: 436200, Training Batch Accuracy:  92.2%
+Global Step: 436300, Training Batch Accuracy:  96.9%
+Global Step: 436400, Training Batch Accuracy:  93.8%
+Global Step: 436500, Training Batch Accuracy:  98.4%
+Global Step: 436600, Training Batch Accuracy:  95.3%
+Global Step: 436700, Training Batch Accuracy: 100.0%
+Global Step: 436800, Training Batch Accuracy:  96.9%
+Global Step: 436900, Training Batch Accuracy:  95.3%
+Global Step: 437000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 437100, Training Batch Accuracy:  98.4%
+Global Step: 437200, Training Batch Accuracy:  93.8%
+Global Step: 437300, Training Batch Accuracy:  92.2%
+Global Step: 437400, Training Batch Accuracy:  95.3%
+Global Step: 437500, Training Batch Accuracy:  95.3%
+Global Step: 437600, Training Batch Accuracy:  90.6%
+Global Step: 437700, Training Batch Accuracy:  96.9%
+Global Step: 437800, Training Batch Accuracy:  93.8%
+Global Step: 437900, Training Batch Accuracy:  95.3%
+Global Step: 438000, Training Batch Accuracy:  89.1%
+Saved checkpoint.
+Global Step: 438100, Training Batch Accuracy:  89.1%
+Global Step: 438200, Training Batch Accuracy:  93.8%
+Global Step: 438300, Training Batch Accuracy:  96.9%
+Global Step: 438400, Training Batch Accuracy:  89.1%
+Global Step: 438500, Training Batch Accuracy:  93.8%
+Global Step: 438600, Training Batch Accuracy:  93.8%
+Global Step: 438700, Training Batch Accuracy:  90.6%
+Global Step: 438800, Training Batch Accuracy:  93.8%
+Global Step: 438900, Training Batch Accuracy:  96.9%
+Global Step: 439000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 439100, Training Batch Accuracy:  95.3%
+Global Step: 439200, Training Batch Accuracy:  96.9%
+Global Step: 439300, Training Batch Accuracy:  92.2%
+Global Step: 439400, Training Batch Accuracy:  92.2%
+Global Step: 439500, Training Batch Accuracy:  92.2%
+Global Step: 439600, Training Batch Accuracy:  92.2%
+Global Step: 439700, Training Batch Accuracy:  96.9%
+Global Step: 439800, Training Batch Accuracy:  96.9%
+Global Step: 439900, Training Batch Accuracy:  96.9%
+Global Step: 440000, Training Batch Accuracy:  92.2%
+Saved checkpoint.
+Global Step: 440100, Training Batch Accuracy:  98.4%
+Global Step: 440200, Training Batch Accuracy:  93.8%
+Global Step: 440300, Training Batch Accuracy:  98.4%
+Global Step: 440400, Training Batch Accuracy:  90.6%
+Global Step: 440500, Training Batch Accuracy:  93.8%
+Global Step: 440600, Training Batch Accuracy:  93.8%
+Global Step: 440700, Training Batch Accuracy:  93.8%
+Global Step: 440800, Training Batch Accuracy:  98.4%
+Global Step: 440900, Training Batch Accuracy:  90.6%
+Global Step: 441000, Training Batch Accuracy:  98.4%
+Saved checkpoint.
+Global Step: 441100, Training Batch Accuracy:  93.8%
+Global Step: 441200, Training Batch Accuracy:  96.9%
+Global Step: 441300, Training Batch Accuracy:  96.9%
+Global Step: 441400, Training Batch Accuracy:  96.9%
+Global Step: 441500, Training Batch Accuracy:  93.8%
+Global Step: 441600, Training Batch Accuracy:  92.2%
+Global Step: 441700, Training Batch Accuracy:  89.1%
+Global Step: 441800, Training Batch Accuracy: 100.0%
+Global Step: 441900, Training Batch Accuracy:  93.8%
+Global Step: 442000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 442100, Training Batch Accuracy:  95.3%
+Global Step: 442200, Training Batch Accuracy:  93.8%
+Global Step: 442300, Training Batch Accuracy:  92.2%
+Global Step: 442400, Training Batch Accuracy:  93.8%
+Global Step: 442500, Training Batch Accuracy:  93.8%
+Global Step: 442600, Training Batch Accuracy:  95.3%
+Global Step: 442700, Training Batch Accuracy:  90.6%
+Global Step: 442800, Training Batch Accuracy:  93.8%
+Global Step: 442900, Training Batch Accuracy:  93.8%
+Global Step: 443000, Training Batch Accuracy:  92.2%
+Saved checkpoint.
+Global Step: 443100, Training Batch Accuracy:  92.2%
+Global Step: 443200, Training Batch Accuracy:  95.3%
+Global Step: 443300, Training Batch Accuracy:  93.8%
+Global Step: 443400, Training Batch Accuracy:  95.3%
+Global Step: 443500, Training Batch Accuracy:  98.4%
+Global Step: 443600, Training Batch Accuracy:  90.6%
+Global Step: 443700, Training Batch Accuracy:  95.3%
+Global Step: 443800, Training Batch Accuracy:  96.9%
+Global Step: 443900, Training Batch Accuracy:  93.8%
+Global Step: 444000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 444100, Training Batch Accuracy:  89.1%
+Global Step: 444200, Training Batch Accuracy:  92.2%
+Global Step: 444300, Training Batch Accuracy:  95.3%
+Global Step: 444400, Training Batch Accuracy:  96.9%
+Global Step: 444500, Training Batch Accuracy:  92.2%
+Global Step: 444600, Training Batch Accuracy:  92.2%
+Global Step: 444700, Training Batch Accuracy:  98.4%
+Global Step: 444800, Training Batch Accuracy:  90.6%
+Global Step: 444900, Training Batch Accuracy:  92.2%
+Global Step: 445000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 445100, Training Batch Accuracy:  98.4%
+Global Step: 445200, Training Batch Accuracy:  93.8%
+Global Step: 445300, Training Batch Accuracy:  95.3%
+Global Step: 445400, Training Batch Accuracy:  92.2%
+Global Step: 445500, Training Batch Accuracy:  90.6%
+Global Step: 445600, Training Batch Accuracy:  92.2%
+Global Step: 445700, Training Batch Accuracy:  92.2%
+Global Step: 445800, Training Batch Accuracy:  95.3%
+Global Step: 445900, Training Batch Accuracy:  96.9%
+Global Step: 446000, Training Batch Accuracy:  90.6%
+Saved checkpoint.
+Global Step: 446100, Training Batch Accuracy:  98.4%
+Global Step: 446200, Training Batch Accuracy:  93.8%
+Global Step: 446300, Training Batch Accuracy:  87.5%
+Global Step: 446400, Training Batch Accuracy:  96.9%
+Global Step: 446500, Training Batch Accuracy:  98.4%
+Global Step: 446600, Training Batch Accuracy:  90.6%
+Global Step: 446700, Training Batch Accuracy:  96.9%
+Global Step: 446800, Training Batch Accuracy:  89.1%
+Global Step: 446900, Training Batch Accuracy:  95.3%
+Global Step: 447000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 447100, Training Batch Accuracy:  93.8%
+Global Step: 447200, Training Batch Accuracy:  98.4%
+Global Step: 447300, Training Batch Accuracy:  93.8%
+Global Step: 447400, Training Batch Accuracy:  98.4%
+Global Step: 447500, Training Batch Accuracy:  93.8%
+Global Step: 447600, Training Batch Accuracy:  89.1%
+Global Step: 447700, Training Batch Accuracy:  96.9%
+Global Step: 447800, Training Batch Accuracy:  89.1%
+Global Step: 447900, Training Batch Accuracy:  95.3%
+Global Step: 448000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 448100, Training Batch Accuracy:  89.1%
+Global Step: 448200, Training Batch Accuracy:  95.3%
+Global Step: 448300, Training Batch Accuracy:  93.8%
+Global Step: 448400, Training Batch Accuracy:  93.8%
+Global Step: 448500, Training Batch Accuracy:  95.3%
+Global Step: 448600, Training Batch Accuracy:  93.8%
+Global Step: 448700, Training Batch Accuracy:  93.8%
+Global Step: 448800, Training Batch Accuracy:  90.6%
+Global Step: 448900, Training Batch Accuracy:  96.9%
+Global Step: 449000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 449100, Training Batch Accuracy:  95.3%
+Global Step: 449200, Training Batch Accuracy:  90.6%
+Global Step: 449300, Training Batch Accuracy:  96.9%
+Global Step: 449400, Training Batch Accuracy:  95.3%
+Global Step: 449500, Training Batch Accuracy:  93.8%
+Global Step: 449600, Training Batch Accuracy:  93.8%
+Global Step: 449700, Training Batch Accuracy:  92.2%
+Global Step: 449800, Training Batch Accuracy:  93.8%
+Global Step: 449900, Training Batch Accuracy:  92.2%
+Global Step: 450000, Training Batch Accuracy:  98.4%
+Saved checkpoint.
+Global Step: 450100, Training Batch Accuracy:  92.2%
+Global Step: 450200, Training Batch Accuracy:  82.8%
+Global Step: 450300, Training Batch Accuracy:  96.9%
+Global Step: 450400, Training Batch Accuracy:  93.8%
+Global Step: 450500, Training Batch Accuracy:  95.3%
+Global Step: 450600, Training Batch Accuracy:  90.6%
+Global Step: 450700, Training Batch Accuracy:  96.9%
+Global Step: 450800, Training Batch Accuracy:  93.8%
+Global Step: 450900, Training Batch Accuracy:  89.1%
+Global Step: 451000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 451100, Training Batch Accuracy:  95.3%
+Global Step: 451200, Training Batch Accuracy:  95.3%
+Global Step: 451300, Training Batch Accuracy:  90.6%
+Global Step: 451400, Training Batch Accuracy:  95.3%
+Global Step: 451500, Training Batch Accuracy:  92.2%
+Global Step: 451600, Training Batch Accuracy:  95.3%
+Global Step: 451700, Training Batch Accuracy: 100.0%
+Global Step: 451800, Training Batch Accuracy:  95.3%
+Global Step: 451900, Training Batch Accuracy:  93.8%
+Global Step: 452000, Training Batch Accuracy:  98.4%
+Saved checkpoint.
+Global Step: 452100, Training Batch Accuracy:  92.2%
+Global Step: 452200, Training Batch Accuracy:  93.8%
+Global Step: 452300, Training Batch Accuracy:  96.9%
+Global Step: 452400, Training Batch Accuracy:  93.8%
+Global Step: 452500, Training Batch Accuracy:  87.5%
+Global Step: 452600, Training Batch Accuracy:  93.8%
+Global Step: 452700, Training Batch Accuracy:  96.9%
+Global Step: 452800, Training Batch Accuracy:  92.2%
+Global Step: 452900, Training Batch Accuracy:  95.3%
+Global Step: 453000, Training Batch Accuracy:  90.6%
+Saved checkpoint.
+Global Step: 453100, Training Batch Accuracy:  92.2%
+Global Step: 453200, Training Batch Accuracy:  95.3%
+Global Step: 453300, Training Batch Accuracy:  90.6%
+Global Step: 453400, Training Batch Accuracy:  96.9%
+Global Step: 453500, Training Batch Accuracy:  98.4%
+Global Step: 453600, Training Batch Accuracy:  98.4%
+Global Step: 453700, Training Batch Accuracy:  89.1%
+Global Step: 453800, Training Batch Accuracy:  92.2%
+Global Step: 453900, Training Batch Accuracy:  92.2%
+Global Step: 454000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 454100, Training Batch Accuracy:  93.8%
+Global Step: 454200, Training Batch Accuracy:  90.6%
+Global Step: 454300, Training Batch Accuracy:  93.8%
+Global Step: 454400, Training Batch Accuracy:  93.8%
+Global Step: 454500, Training Batch Accuracy:  90.6%
+Global Step: 454600, Training Batch Accuracy:  96.9%
+Global Step: 454700, Training Batch Accuracy:  95.3%
+Global Step: 454800, Training Batch Accuracy: 100.0%
+Global Step: 454900, Training Batch Accuracy:  89.1%
+Global Step: 455000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 455100, Training Batch Accuracy:  98.4%
+Global Step: 455200, Training Batch Accuracy:  92.2%
+Global Step: 455300, Training Batch Accuracy:  93.8%
+Global Step: 455400, Training Batch Accuracy:  92.2%
+Global Step: 455500, Training Batch Accuracy:  93.8%
+Global Step: 455600, Training Batch Accuracy:  93.8%
+Global Step: 455700, Training Batch Accuracy:  89.1%
+Global Step: 455800, Training Batch Accuracy:  98.4%
+Global Step: 455900, Training Batch Accuracy:  92.2%
+Global Step: 456000, Training Batch Accuracy:  98.4%
+Saved checkpoint.
+Global Step: 456100, Training Batch Accuracy:  96.9%
+Global Step: 456200, Training Batch Accuracy:  92.2%
+Global Step: 456300, Training Batch Accuracy:  87.5%
+Global Step: 456400, Training Batch Accuracy:  98.4%
+Global Step: 456500, Training Batch Accuracy:  90.6%
+Global Step: 456600, Training Batch Accuracy:  90.6%
+Global Step: 456700, Training Batch Accuracy: 100.0%
+Global Step: 456800, Training Batch Accuracy:  93.8%
+Global Step: 456900, Training Batch Accuracy:  92.2%
+Global Step: 457000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 457100, Training Batch Accuracy:  98.4%
+Global Step: 457200, Training Batch Accuracy:  96.9%
+Global Step: 457300, Training Batch Accuracy:  92.2%
+Global Step: 457400, Training Batch Accuracy:  98.4%
+Global Step: 457500, Training Batch Accuracy:  95.3%
+Global Step: 457600, Training Batch Accuracy:  96.9%
+Global Step: 457700, Training Batch Accuracy:  89.1%
+Global Step: 457800, Training Batch Accuracy:  93.8%
+Global Step: 457900, Training Batch Accuracy:  93.8%
+Global Step: 458000, Training Batch Accuracy:  92.2%
+Saved checkpoint.
+Global Step: 458100, Training Batch Accuracy:  89.1%
+Global Step: 458200, Training Batch Accuracy:  90.6%
+Global Step: 458300, Training Batch Accuracy:  96.9%
+Global Step: 458400, Training Batch Accuracy:  87.5%
+Global Step: 458500, Training Batch Accuracy:  93.8%
+Global Step: 458600, Training Batch Accuracy:  93.8%
+Global Step: 458700, Training Batch Accuracy: 100.0%
+Global Step: 458800, Training Batch Accuracy:  95.3%
+Global Step: 458900, Training Batch Accuracy:  98.4%
+Global Step: 459000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 459100, Training Batch Accuracy:  96.9%
+Global Step: 459200, Training Batch Accuracy:  95.3%
+Global Step: 459300, Training Batch Accuracy:  93.8%
+Global Step: 459400, Training Batch Accuracy:  96.9%
+Global Step: 459500, Training Batch Accuracy:  96.9%
+Global Step: 459600, Training Batch Accuracy:  95.3%
+Global Step: 459700, Training Batch Accuracy:  98.4%
+Global Step: 459800, Training Batch Accuracy:  90.6%
+Global Step: 459900, Training Batch Accuracy:  95.3%
+Global Step: 460000, Training Batch Accuracy:  90.6%
+Saved checkpoint.
+Global Step: 460100, Training Batch Accuracy:  98.4%
+Global Step: 460200, Training Batch Accuracy:  92.2%
+Global Step: 460300, Training Batch Accuracy:  89.1%
+Global Step: 460400, Training Batch Accuracy:  95.3%
+Global Step: 460500, Training Batch Accuracy:  93.8%
+Global Step: 460600, Training Batch Accuracy:  92.2%
+Global Step: 460700, Training Batch Accuracy:  98.4%
+Global Step: 460800, Training Batch Accuracy:  96.9%
+Global Step: 460900, Training Batch Accuracy:  96.9%
+Global Step: 461000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 461100, Training Batch Accuracy:  92.2%
+Global Step: 461200, Training Batch Accuracy:  90.6%
+Global Step: 461300, Training Batch Accuracy:  93.8%
+Global Step: 461400, Training Batch Accuracy:  96.9%
+Global Step: 461500, Training Batch Accuracy:  90.6%
+Global Step: 461600, Training Batch Accuracy:  96.9%
+Global Step: 461700, Training Batch Accuracy:  96.9%
+Global Step: 461800, Training Batch Accuracy:  89.1%
+Global Step: 461900, Training Batch Accuracy:  95.3%
+Global Step: 462000, Training Batch Accuracy:  98.4%
+Saved checkpoint.
+Global Step: 462100, Training Batch Accuracy:  98.4%
+Global Step: 462200, Training Batch Accuracy:  96.9%
+Global Step: 462300, Training Batch Accuracy: 100.0%
+Global Step: 462400, Training Batch Accuracy:  92.2%
+Global Step: 462500, Training Batch Accuracy:  95.3%
+Global Step: 462600, Training Batch Accuracy:  95.3%
+Global Step: 462700, Training Batch Accuracy:  95.3%
+Global Step: 462800, Training Batch Accuracy: 100.0%
+Global Step: 462900, Training Batch Accuracy:  93.8%
+Global Step: 463000, Training Batch Accuracy:  92.2%
+Saved checkpoint.
+Global Step: 463100, Training Batch Accuracy:  93.8%
+Global Step: 463200, Training Batch Accuracy:  90.6%
+Global Step: 463300, Training Batch Accuracy:  95.3%
+Global Step: 463400, Training Batch Accuracy:  90.6%
+Global Step: 463500, Training Batch Accuracy:  98.4%
+Global Step: 463600, Training Batch Accuracy:  93.8%
+Global Step: 463700, Training Batch Accuracy:  95.3%
+Global Step: 463800, Training Batch Accuracy:  95.3%
+Global Step: 463900, Training Batch Accuracy:  95.3%
+Global Step: 464000, Training Batch Accuracy:  89.1%
+Saved checkpoint.
+Global Step: 464100, Training Batch Accuracy:  93.8%
+Global Step: 464200, Training Batch Accuracy:  93.8%
+Global Step: 464300, Training Batch Accuracy:  92.2%
+Global Step: 464400, Training Batch Accuracy: 100.0%
+Global Step: 464500, Training Batch Accuracy:  95.3%
+Global Step: 464600, Training Batch Accuracy:  89.1%
+Global Step: 464700, Training Batch Accuracy:  96.9%
+Global Step: 464800, Training Batch Accuracy:  92.2%
+Global Step: 464900, Training Batch Accuracy:  95.3%
+Global Step: 465000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 465100, Training Batch Accuracy:  98.4%
+Global Step: 465200, Training Batch Accuracy:  98.4%
+Global Step: 465300, Training Batch Accuracy:  87.5%
+Global Step: 465400, Training Batch Accuracy:  96.9%
+Global Step: 465500, Training Batch Accuracy:  93.8%
+Global Step: 465600, Training Batch Accuracy:  95.3%
+Global Step: 465700, Training Batch Accuracy:  93.8%
+Global Step: 465800, Training Batch Accuracy:  95.3%
+Global Step: 465900, Training Batch Accuracy:  95.3%
+Global Step: 466000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 466100, Training Batch Accuracy:  87.5%
+Global Step: 466200, Training Batch Accuracy:  87.5%
+Global Step: 466300, Training Batch Accuracy:  95.3%
+Global Step: 466400, Training Batch Accuracy:  96.9%
+Global Step: 466500, Training Batch Accuracy:  98.4%
+Global Step: 466600, Training Batch Accuracy:  96.9%
+Global Step: 466700, Training Batch Accuracy:  87.5%
+Global Step: 466800, Training Batch Accuracy:  96.9%
+Global Step: 466900, Training Batch Accuracy:  92.2%
+Global Step: 467000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 467100, Training Batch Accuracy:  96.9%
+Global Step: 467200, Training Batch Accuracy:  95.3%
+Global Step: 467300, Training Batch Accuracy:  93.8%
+Global Step: 467400, Training Batch Accuracy:  85.9%
+Global Step: 467500, Training Batch Accuracy:  93.8%
+Global Step: 467600, Training Batch Accuracy:  93.8%
+Global Step: 467700, Training Batch Accuracy:  90.6%
+Global Step: 467800, Training Batch Accuracy:  87.5%
+Global Step: 467900, Training Batch Accuracy:  90.6%
+Global Step: 468000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 468100, Training Batch Accuracy:  96.9%
+Global Step: 468200, Training Batch Accuracy:  98.4%
+Global Step: 468300, Training Batch Accuracy:  93.8%
+Global Step: 468400, Training Batch Accuracy:  92.2%
+Global Step: 468500, Training Batch Accuracy:  96.9%
+Global Step: 468600, Training Batch Accuracy:  96.9%
+Global Step: 468700, Training Batch Accuracy:  85.9%
+Global Step: 468800, Training Batch Accuracy:  95.3%
+Global Step: 468900, Training Batch Accuracy:  85.9%
+Global Step: 469000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 469100, Training Batch Accuracy:  93.8%
+Global Step: 469200, Training Batch Accuracy:  96.9%
+Global Step: 469300, Training Batch Accuracy:  95.3%
+Global Step: 469400, Training Batch Accuracy:  93.8%
+Global Step: 469500, Training Batch Accuracy:  93.8%
+Global Step: 469600, Training Batch Accuracy:  96.9%
+Global Step: 469700, Training Batch Accuracy:  93.8%
+Global Step: 469800, Training Batch Accuracy:  95.3%
+Global Step: 469900, Training Batch Accuracy:  90.6%
+Global Step: 470000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 470100, Training Batch Accuracy:  87.5%
+Global Step: 470200, Training Batch Accuracy:  95.3%
+Global Step: 470300, Training Batch Accuracy:  96.9%
+Global Step: 470400, Training Batch Accuracy:  96.9%
+Global Step: 470500, Training Batch Accuracy:  90.6%
+Global Step: 470600, Training Batch Accuracy:  92.2%
+Global Step: 470700, Training Batch Accuracy:  95.3%
+Global Step: 470800, Training Batch Accuracy:  92.2%
+Global Step: 470900, Training Batch Accuracy:  95.3%
+Global Step: 471000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 471100, Training Batch Accuracy:  93.8%
+Global Step: 471200, Training Batch Accuracy:  89.1%
+Global Step: 471300, Training Batch Accuracy:  93.8%
+Global Step: 471400, Training Batch Accuracy:  93.8%
+Global Step: 471500, Training Batch Accuracy:  96.9%
+Global Step: 471600, Training Batch Accuracy:  90.6%
+Global Step: 471700, Training Batch Accuracy:  92.2%
+Global Step: 471800, Training Batch Accuracy:  90.6%
+Global Step: 471900, Training Batch Accuracy:  93.8%
+Global Step: 472000, Training Batch Accuracy:  92.2%
+Saved checkpoint.
+Global Step: 472100, Training Batch Accuracy:  93.8%
+Global Step: 472200, Training Batch Accuracy:  92.2%
+Global Step: 472300, Training Batch Accuracy:  93.8%
+Global Step: 472400, Training Batch Accuracy:  96.9%
+Global Step: 472500, Training Batch Accuracy:  93.8%
+Global Step: 472600, Training Batch Accuracy:  92.2%
+Global Step: 472700, Training Batch Accuracy:  98.4%
+Global Step: 472800, Training Batch Accuracy:  89.1%
+Global Step: 472900, Training Batch Accuracy:  93.8%
+Global Step: 473000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 473100, Training Batch Accuracy:  93.8%
+Global Step: 473200, Training Batch Accuracy:  92.2%
+Global Step: 473300, Training Batch Accuracy:  89.1%
+Global Step: 473400, Training Batch Accuracy:  89.1%
+Global Step: 473500, Training Batch Accuracy:  93.8%
+Global Step: 473600, Training Batch Accuracy:  96.9%
+Global Step: 473700, Training Batch Accuracy:  92.2%
+Global Step: 473800, Training Batch Accuracy:  89.1%
+Global Step: 473900, Training Batch Accuracy:  92.2%
+Global Step: 474000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 474100, Training Batch Accuracy:  95.3%
+Global Step: 474200, Training Batch Accuracy:  98.4%
+Global Step: 474300, Training Batch Accuracy:  95.3%
+Global Step: 474400, Training Batch Accuracy:  95.3%
+Global Step: 474500, Training Batch Accuracy:  90.6%
+Global Step: 474600, Training Batch Accuracy:  98.4%
+Global Step: 474700, Training Batch Accuracy:  95.3%
+Global Step: 474800, Training Batch Accuracy:  92.2%
+Global Step: 474900, Training Batch Accuracy:  98.4%
+Global Step: 475000, Training Batch Accuracy:  89.1%
+Saved checkpoint.
+Global Step: 475100, Training Batch Accuracy:  93.8%
+Global Step: 475200, Training Batch Accuracy:  85.9%
+Global Step: 475300, Training Batch Accuracy:  93.8%
+Global Step: 475400, Training Batch Accuracy:  98.4%
+Global Step: 475500, Training Batch Accuracy:  93.8%
+Global Step: 475600, Training Batch Accuracy:  89.1%
+Global Step: 475700, Training Batch Accuracy:  96.9%
+Global Step: 475800, Training Batch Accuracy:  93.8%
+Global Step: 475900, Training Batch Accuracy:  95.3%
+Global Step: 476000, Training Batch Accuracy:  90.6%
+Saved checkpoint.
+Global Step: 476100, Training Batch Accuracy:  93.8%
+Global Step: 476200, Training Batch Accuracy:  92.2%
+Global Step: 476300, Training Batch Accuracy:  95.3%
+Global Step: 476400, Training Batch Accuracy:  96.9%
+Global Step: 476500, Training Batch Accuracy:  98.4%
+Global Step: 476600, Training Batch Accuracy:  95.3%
+Global Step: 476700, Training Batch Accuracy:  96.9%
+Global Step: 476800, Training Batch Accuracy:  90.6%
+Global Step: 476900, Training Batch Accuracy:  90.6%
+Global Step: 477000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 477100, Training Batch Accuracy:  93.8%
+Global Step: 477200, Training Batch Accuracy:  93.8%
+Global Step: 477300, Training Batch Accuracy:  95.3%
+Global Step: 477400, Training Batch Accuracy:  93.8%
+Global Step: 477500, Training Batch Accuracy:  95.3%
+Global Step: 477600, Training Batch Accuracy:  95.3%
+Global Step: 477700, Training Batch Accuracy:  96.9%
+Global Step: 477800, Training Batch Accuracy:  92.2%
+Global Step: 477900, Training Batch Accuracy:  96.9%
+Global Step: 478000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 478100, Training Batch Accuracy:  96.9%
+Global Step: 478200, Training Batch Accuracy:  98.4%
+Global Step: 478300, Training Batch Accuracy:  95.3%
+Global Step: 478400, Training Batch Accuracy:  93.8%
+Global Step: 478500, Training Batch Accuracy:  98.4%
+Global Step: 478600, Training Batch Accuracy:  90.6%
+Global Step: 478700, Training Batch Accuracy:  93.8%
+Global Step: 478800, Training Batch Accuracy:  96.9%
+Global Step: 478900, Training Batch Accuracy:  92.2%
+Global Step: 479000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 479100, Training Batch Accuracy:  98.4%
+Global Step: 479200, Training Batch Accuracy: 100.0%
+Global Step: 479300, Training Batch Accuracy:  98.4%
+Global Step: 479400, Training Batch Accuracy:  90.6%
+Global Step: 479500, Training Batch Accuracy:  95.3%
+Global Step: 479600, Training Batch Accuracy:  90.6%
+Global Step: 479700, Training Batch Accuracy:  93.8%
+Global Step: 479800, Training Batch Accuracy:  95.3%
+Global Step: 479900, Training Batch Accuracy:  95.3%
+Global Step: 480000, Training Batch Accuracy:  90.6%
+Saved checkpoint.
+Global Step: 480100, Training Batch Accuracy:  89.1%
+Global Step: 480200, Training Batch Accuracy:  92.2%
+Global Step: 480300, Training Batch Accuracy:  93.8%
+Global Step: 480400, Training Batch Accuracy:  93.8%
+Global Step: 480500, Training Batch Accuracy:  96.9%
+Global Step: 480600, Training Batch Accuracy:  95.3%
+Global Step: 480700, Training Batch Accuracy:  95.3%
+Global Step: 480800, Training Batch Accuracy:  93.8%
+Global Step: 480900, Training Batch Accuracy:  95.3%
+Global Step: 481000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 481100, Training Batch Accuracy:  93.8%
+Global Step: 481200, Training Batch Accuracy:  89.1%
+Global Step: 481300, Training Batch Accuracy:  92.2%
+Global Step: 481400, Training Batch Accuracy:  96.9%
+Global Step: 481500, Training Batch Accuracy:  95.3%
+Global Step: 481600, Training Batch Accuracy:  95.3%
+Global Step: 481700, Training Batch Accuracy:  87.5%
+Global Step: 481800, Training Batch Accuracy:  92.2%
+Global Step: 481900, Training Batch Accuracy:  98.4%
+Global Step: 482000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 482100, Training Batch Accuracy:  93.8%
+Global Step: 482200, Training Batch Accuracy:  98.4%
+Global Step: 482300, Training Batch Accuracy:  90.6%
+Global Step: 482400, Training Batch Accuracy:  92.2%
+Global Step: 482500, Training Batch Accuracy:  98.4%
+Global Step: 482600, Training Batch Accuracy:  89.1%
+Global Step: 482700, Training Batch Accuracy:  92.2%
+Global Step: 482800, Training Batch Accuracy:  95.3%
+Global Step: 482900, Training Batch Accuracy:  93.8%
+Global Step: 483000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 483100, Training Batch Accuracy:  87.5%
+Global Step: 483200, Training Batch Accuracy:  90.6%
+Global Step: 483300, Training Batch Accuracy:  95.3%
+Global Step: 483400, Training Batch Accuracy:  98.4%
+Global Step: 483500, Training Batch Accuracy:  95.3%
+Global Step: 483600, Training Batch Accuracy:  93.8%
+Global Step: 483700, Training Batch Accuracy:  93.8%
+Global Step: 483800, Training Batch Accuracy:  96.9%
+Global Step: 483900, Training Batch Accuracy:  96.9%
+Global Step: 484000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 484100, Training Batch Accuracy:  93.8%
+Global Step: 484200, Training Batch Accuracy:  93.8%
+Global Step: 484300, Training Batch Accuracy:  92.2%
+Global Step: 484400, Training Batch Accuracy:  93.8%
+Global Step: 484500, Training Batch Accuracy:  95.3%
+Global Step: 484600, Training Batch Accuracy:  98.4%
+Global Step: 484700, Training Batch Accuracy:  95.3%
+Global Step: 484800, Training Batch Accuracy:  92.2%
+Global Step: 484900, Training Batch Accuracy:  96.9%
+Global Step: 485000, Training Batch Accuracy: 100.0%
+Saved checkpoint.
+Global Step: 485100, Training Batch Accuracy:  95.3%
+Global Step: 485200, Training Batch Accuracy:  95.3%
+Global Step: 485300, Training Batch Accuracy:  98.4%
+Global Step: 485400, Training Batch Accuracy:  93.8%
+Global Step: 485500, Training Batch Accuracy:  96.9%
+Global Step: 485600, Training Batch Accuracy:  95.3%
+Global Step: 485700, Training Batch Accuracy:  96.9%
+Global Step: 485800, Training Batch Accuracy:  95.3%
+Global Step: 485900, Training Batch Accuracy:  92.2%
+Global Step: 486000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 486100, Training Batch Accuracy:  95.3%
+Global Step: 486200, Training Batch Accuracy:  98.4%
+Global Step: 486300, Training Batch Accuracy:  90.6%
+Global Step: 486400, Training Batch Accuracy:  93.8%
+Global Step: 486500, Training Batch Accuracy:  92.2%
+Global Step: 486600, Training Batch Accuracy:  93.8%
+Global Step: 486700, Training Batch Accuracy:  96.9%
+Global Step: 486800, Training Batch Accuracy:  96.9%
+Global Step: 486900, Training Batch Accuracy:  96.9%
+Global Step: 487000, Training Batch Accuracy:  98.4%
+Saved checkpoint.
+Global Step: 487100, Training Batch Accuracy:  98.4%
+Global Step: 487200, Training Batch Accuracy:  95.3%
+Global Step: 487300, Training Batch Accuracy:  93.8%
+Global Step: 487400, Training Batch Accuracy:  92.2%
+Global Step: 487500, Training Batch Accuracy:  95.3%
+Global Step: 487600, Training Batch Accuracy:  85.9%
+Global Step: 487700, Training Batch Accuracy:  95.3%
+Global Step: 487800, Training Batch Accuracy:  95.3%
+Global Step: 487900, Training Batch Accuracy:  92.2%
+Global Step: 488000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 488100, Training Batch Accuracy:  92.2%
+Global Step: 488200, Training Batch Accuracy:  98.4%
+Global Step: 488300, Training Batch Accuracy:  95.3%
+Global Step: 488400, Training Batch Accuracy:  96.9%
+Global Step: 488500, Training Batch Accuracy:  90.6%
+Global Step: 488600, Training Batch Accuracy:  90.6%
+Global Step: 488700, Training Batch Accuracy:  96.9%
+Global Step: 488800, Training Batch Accuracy:  93.8%
+Global Step: 488900, Training Batch Accuracy:  92.2%
+Global Step: 489000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 489100, Training Batch Accuracy:  90.6%
+Global Step: 489200, Training Batch Accuracy:  92.2%
+Global Step: 489300, Training Batch Accuracy:  87.5%
+Global Step: 489400, Training Batch Accuracy:  92.2%
+Global Step: 489500, Training Batch Accuracy: 100.0%
+Global Step: 489600, Training Batch Accuracy:  92.2%
+Global Step: 489700, Training Batch Accuracy:  90.6%
+Global Step: 489800, Training Batch Accuracy:  93.8%
+Global Step: 489900, Training Batch Accuracy:  95.3%
+Global Step: 490000, Training Batch Accuracy:  90.6%
+Saved checkpoint.
+Global Step: 490100, Training Batch Accuracy:  93.8%
+Global Step: 490200, Training Batch Accuracy:  95.3%
+Global Step: 490300, Training Batch Accuracy:  85.9%
+Global Step: 490400, Training Batch Accuracy:  95.3%
+Global Step: 490500, Training Batch Accuracy:  92.2%
+Global Step: 490600, Training Batch Accuracy:  98.4%
+Global Step: 490700, Training Batch Accuracy:  95.3%
+Global Step: 490800, Training Batch Accuracy:  90.6%
+Global Step: 490900, Training Batch Accuracy:  89.1%
+Global Step: 491000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 491100, Training Batch Accuracy:  96.9%
+Global Step: 491200, Training Batch Accuracy:  92.2%
+Global Step: 491300, Training Batch Accuracy:  92.2%
+Global Step: 491400, Training Batch Accuracy:  95.3%
+Global Step: 491500, Training Batch Accuracy:  85.9%
+Global Step: 491600, Training Batch Accuracy:  90.6%
+Global Step: 491700, Training Batch Accuracy:  96.9%
+Global Step: 491800, Training Batch Accuracy:  93.8%
+Global Step: 491900, Training Batch Accuracy:  95.3%
+Global Step: 492000, Training Batch Accuracy:  92.2%
+Saved checkpoint.
+Global Step: 492100, Training Batch Accuracy:  93.8%
+Global Step: 492200, Training Batch Accuracy:  95.3%
+Global Step: 492300, Training Batch Accuracy:  95.3%
+Global Step: 492400, Training Batch Accuracy:  93.8%
+Global Step: 492500, Training Batch Accuracy:  98.4%
+Global Step: 492600, Training Batch Accuracy:  93.8%
+Global Step: 492700, Training Batch Accuracy:  98.4%
+Global Step: 492800, Training Batch Accuracy:  95.3%
+Global Step: 492900, Training Batch Accuracy:  87.5%
+Global Step: 493000, Training Batch Accuracy:  92.2%
+Saved checkpoint.
+Global Step: 493100, Training Batch Accuracy: 100.0%
+Global Step: 493200, Training Batch Accuracy:  92.2%
+Global Step: 493300, Training Batch Accuracy:  93.8%
+Global Step: 493400, Training Batch Accuracy:  95.3%
+Global Step: 493500, Training Batch Accuracy:  90.6%
+Global Step: 493600, Training Batch Accuracy:  93.8%
+Global Step: 493700, Training Batch Accuracy:  92.2%
+Global Step: 493800, Training Batch Accuracy:  96.9%
+Global Step: 493900, Training Batch Accuracy:  84.4%
+Global Step: 494000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 494100, Training Batch Accuracy:  93.8%
+Global Step: 494200, Training Batch Accuracy:  93.8%
+Global Step: 494300, Training Batch Accuracy:  90.6%
+Global Step: 494400, Training Batch Accuracy:  98.4%
+Global Step: 494500, Training Batch Accuracy:  93.8%
+Global Step: 494600, Training Batch Accuracy:  96.9%
+Global Step: 494700, Training Batch Accuracy:  89.1%
+Global Step: 494800, Training Batch Accuracy:  93.8%
+Global Step: 494900, Training Batch Accuracy:  95.3%
+Global Step: 495000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 495100, Training Batch Accuracy:  90.6%
+Global Step: 495200, Training Batch Accuracy:  96.9%
+Global Step: 495300, Training Batch Accuracy:  95.3%
+Global Step: 495400, Training Batch Accuracy:  96.9%
+Global Step: 495500, Training Batch Accuracy:  95.3%
+Global Step: 495600, Training Batch Accuracy:  93.8%
+Global Step: 495700, Training Batch Accuracy:  95.3%
+Global Step: 495800, Training Batch Accuracy:  96.9%
+Global Step: 495900, Training Batch Accuracy:  92.2%
+Global Step: 496000, Training Batch Accuracy:  89.1%
+Saved checkpoint.
+Global Step: 496100, Training Batch Accuracy:  95.3%
+Global Step: 496200, Training Batch Accuracy:  92.2%
+Global Step: 496300, Training Batch Accuracy:  96.9%
+Global Step: 496400, Training Batch Accuracy:  96.9%
+Global Step: 496500, Training Batch Accuracy:  98.4%
+Global Step: 496600, Training Batch Accuracy:  96.9%
+Global Step: 496700, Training Batch Accuracy:  95.3%
+Global Step: 496800, Training Batch Accuracy:  96.9%
+Global Step: 496900, Training Batch Accuracy:  92.2%
+Global Step: 497000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 497100, Training Batch Accuracy:  93.8%
+Global Step: 497200, Training Batch Accuracy:  90.6%
+Global Step: 497300, Training Batch Accuracy:  96.9%
+Global Step: 497400, Training Batch Accuracy:  93.8%
+Global Step: 497500, Training Batch Accuracy:  98.4%
+Global Step: 497600, Training Batch Accuracy:  95.3%
+Global Step: 497700, Training Batch Accuracy:  96.9%
+Global Step: 497800, Training Batch Accuracy:  95.3%
+Global Step: 497900, Training Batch Accuracy:  93.8%
+Global Step: 498000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 498100, Training Batch Accuracy:  89.1%
+Global Step: 498200, Training Batch Accuracy:  95.3%
+Global Step: 498300, Training Batch Accuracy:  93.8%
+Global Step: 498400, Training Batch Accuracy:  92.2%
+Global Step: 498500, Training Batch Accuracy:  96.9%
+Global Step: 498600, Training Batch Accuracy:  89.1%
+Global Step: 498700, Training Batch Accuracy: 100.0%
+Global Step: 498800, Training Batch Accuracy:  98.4%
+Global Step: 498900, Training Batch Accuracy:  98.4%
+Global Step: 499000, Training Batch Accuracy:  98.4%
+Saved checkpoint.
+Global Step: 499100, Training Batch Accuracy:  87.5%
+Global Step: 499200, Training Batch Accuracy:  92.2%
+Global Step: 499300, Training Batch Accuracy:  93.8%
+Global Step: 499400, Training Batch Accuracy:  93.8%
+Global Step: 499500, Training Batch Accuracy:  92.2%
+Global Step: 499600, Training Batch Accuracy:  98.4%
+Global Step: 499700, Training Batch Accuracy:  95.3%
+Global Step: 499800, Training Batch Accuracy:  92.2%
+Global Step: 499900, Training Batch Accuracy:  93.8%
+Global Step: 500000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 500100, Training Batch Accuracy:  98.4%
+Global Step: 500200, Training Batch Accuracy:  92.2%
+Global Step: 500300, Training Batch Accuracy:  93.8%
+Global Step: 500400, Training Batch Accuracy:  93.8%
+Global Step: 500500, Training Batch Accuracy:  95.3%
+Global Step: 500600, Training Batch Accuracy:  93.8%
+Global Step: 500700, Training Batch Accuracy:  89.1%
+Global Step: 500800, Training Batch Accuracy:  93.8%
+Global Step: 500900, Training Batch Accuracy:  96.9%
+Global Step: 501000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 501100, Training Batch Accuracy:  95.3%
+Global Step: 501200, Training Batch Accuracy: 100.0%
+Global Step: 501300, Training Batch Accuracy:  95.3%
+Global Step: 501400, Training Batch Accuracy:  98.4%
+Global Step: 501500, Training Batch Accuracy:  96.9%
+Global Step: 501600, Training Batch Accuracy:  95.3%
+Global Step: 501700, Training Batch Accuracy:  92.2%
+Global Step: 501800, Training Batch Accuracy:  98.4%
+Global Step: 501900, Training Batch Accuracy:  92.2%
+Global Step: 502000, Training Batch Accuracy:  92.2%
+Saved checkpoint.
+Global Step: 502100, Training Batch Accuracy:  96.9%
+Global Step: 502200, Training Batch Accuracy: 100.0%
+Global Step: 502300, Training Batch Accuracy:  92.2%
+Global Step: 502400, Training Batch Accuracy:  96.9%
+Global Step: 502500, Training Batch Accuracy:  93.8%
+Global Step: 502600, Training Batch Accuracy:  98.4%
+Global Step: 502700, Training Batch Accuracy:  95.3%
+Global Step: 502800, Training Batch Accuracy:  90.6%
+Global Step: 502900, Training Batch Accuracy:  90.6%
+Global Step: 503000, Training Batch Accuracy:  92.2%
+Saved checkpoint.
+Global Step: 503100, Training Batch Accuracy:  96.9%
+Global Step: 503200, Training Batch Accuracy:  96.9%
+Global Step: 503300, Training Batch Accuracy:  96.9%
+Global Step: 503400, Training Batch Accuracy:  96.9%
+Global Step: 503500, Training Batch Accuracy:  96.9%
+Global Step: 503600, Training Batch Accuracy:  92.2%
+Global Step: 503700, Training Batch Accuracy:  95.3%
+Global Step: 503800, Training Batch Accuracy:  89.1%
+Global Step: 503900, Training Batch Accuracy:  95.3%
+Global Step: 504000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 504100, Training Batch Accuracy:  93.8%
+Global Step: 504200, Training Batch Accuracy:  93.8%
+Global Step: 504300, Training Batch Accuracy:  98.4%
+Global Step: 504400, Training Batch Accuracy:  92.2%
+Global Step: 504500, Training Batch Accuracy:  93.8%
+Global Step: 504600, Training Batch Accuracy:  98.4%
+Global Step: 504700, Training Batch Accuracy:  96.9%
+Global Step: 504800, Training Batch Accuracy:  92.2%
+Global Step: 504900, Training Batch Accuracy:  93.8%
+Global Step: 505000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 505100, Training Batch Accuracy:  95.3%
+Global Step: 505200, Training Batch Accuracy:  92.2%
+Global Step: 505300, Training Batch Accuracy:  96.9%
+Global Step: 505400, Training Batch Accuracy:  89.1%
+Global Step: 505500, Training Batch Accuracy:  92.2%
+Global Step: 505600, Training Batch Accuracy:  96.9%
+Global Step: 505700, Training Batch Accuracy:  92.2%
+Global Step: 505800, Training Batch Accuracy:  96.9%
+Global Step: 505900, Training Batch Accuracy:  95.3%
+Global Step: 506000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 506100, Training Batch Accuracy:  95.3%
+Global Step: 506200, Training Batch Accuracy:  95.3%
+Global Step: 506300, Training Batch Accuracy:  92.2%
+Global Step: 506400, Training Batch Accuracy:  96.9%
+Global Step: 506500, Training Batch Accuracy:  96.9%
+Global Step: 506600, Training Batch Accuracy:  92.2%
+Global Step: 506700, Training Batch Accuracy:  96.9%
+Global Step: 506800, Training Batch Accuracy:  89.1%
+Global Step: 506900, Training Batch Accuracy:  95.3%
+Global Step: 507000, Training Batch Accuracy: 100.0%
+Saved checkpoint.
+Global Step: 507100, Training Batch Accuracy:  95.3%
+Global Step: 507200, Training Batch Accuracy:  95.3%
+Global Step: 507300, Training Batch Accuracy:  95.3%
+Global Step: 507400, Training Batch Accuracy:  93.8%
+Global Step: 507500, Training Batch Accuracy:  95.3%
+Global Step: 507600, Training Batch Accuracy:  92.2%
+Global Step: 507700, Training Batch Accuracy:  93.8%
+Global Step: 507800, Training Batch Accuracy:  96.9%
+Global Step: 507900, Training Batch Accuracy:  96.9%
+Global Step: 508000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 508100, Training Batch Accuracy:  92.2%
+Global Step: 508200, Training Batch Accuracy:  92.2%
+Global Step: 508300, Training Batch Accuracy:  96.9%
+Global Step: 508400, Training Batch Accuracy:  96.9%
+Global Step: 508500, Training Batch Accuracy:  95.3%
+Global Step: 508600, Training Batch Accuracy:  95.3%
+Global Step: 508700, Training Batch Accuracy:  96.9%
+Global Step: 508800, Training Batch Accuracy:  95.3%
+Global Step: 508900, Training Batch Accuracy:  95.3%
+Global Step: 509000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 509100, Training Batch Accuracy:  98.4%
+Global Step: 509200, Training Batch Accuracy:  95.3%
+Global Step: 509300, Training Batch Accuracy:  93.8%
+Global Step: 509400, Training Batch Accuracy:  92.2%
+Global Step: 509500, Training Batch Accuracy:  95.3%
+Global Step: 509600, Training Batch Accuracy:  93.8%
+Global Step: 509700, Training Batch Accuracy:  98.4%
+Global Step: 509800, Training Batch Accuracy:  92.2%
+Global Step: 509900, Training Batch Accuracy:  93.8%
+Global Step: 510000, Training Batch Accuracy:  90.6%
+Saved checkpoint.
+Global Step: 510100, Training Batch Accuracy:  96.9%
+Global Step: 510200, Training Batch Accuracy:  87.5%
+Global Step: 510300, Training Batch Accuracy:  95.3%
+Global Step: 510400, Training Batch Accuracy:  93.8%
+Global Step: 510500, Training Batch Accuracy:  92.2%
+Global Step: 510600, Training Batch Accuracy:  93.8%
+Global Step: 510700, Training Batch Accuracy:  95.3%
+Global Step: 510800, Training Batch Accuracy:  96.9%
+Global Step: 510900, Training Batch Accuracy:  95.3%
+Global Step: 511000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 511100, Training Batch Accuracy:  93.8%
+Global Step: 511200, Training Batch Accuracy:  95.3%
+Global Step: 511300, Training Batch Accuracy:  92.2%
+Global Step: 511400, Training Batch Accuracy:  96.9%
+Global Step: 511500, Training Batch Accuracy:  95.3%
+Global Step: 511600, Training Batch Accuracy:  98.4%
+Global Step: 511700, Training Batch Accuracy:  93.8%
+Global Step: 511800, Training Batch Accuracy:  98.4%
+Global Step: 511900, Training Batch Accuracy:  96.9%
+Global Step: 512000, Training Batch Accuracy:  98.4%
+Saved checkpoint.
+Global Step: 512100, Training Batch Accuracy:  96.9%
+Global Step: 512200, Training Batch Accuracy:  92.2%
+Global Step: 512300, Training Batch Accuracy:  95.3%
+Global Step: 512400, Training Batch Accuracy:  95.3%
+Global Step: 512500, Training Batch Accuracy:  92.2%
+Global Step: 512600, Training Batch Accuracy:  90.6%
+Global Step: 512700, Training Batch Accuracy:  96.9%
+Global Step: 512800, Training Batch Accuracy:  95.3%
+Global Step: 512900, Training Batch Accuracy:  90.6%
+Global Step: 513000, Training Batch Accuracy:  90.6%
+Saved checkpoint.
+Global Step: 513100, Training Batch Accuracy:  93.8%
+Global Step: 513200, Training Batch Accuracy:  93.8%
+Global Step: 513300, Training Batch Accuracy:  95.3%
+Global Step: 513400, Training Batch Accuracy:  92.2%
+Global Step: 513500, Training Batch Accuracy:  89.1%
+Global Step: 513600, Training Batch Accuracy:  95.3%
+Global Step: 513700, Training Batch Accuracy:  92.2%
+Global Step: 513800, Training Batch Accuracy:  82.8%
+Global Step: 513900, Training Batch Accuracy:  96.9%
+Global Step: 514000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 514100, Training Batch Accuracy:  90.6%
+Global Step: 514200, Training Batch Accuracy:  95.3%
+Global Step: 514300, Training Batch Accuracy:  96.9%
+Global Step: 514400, Training Batch Accuracy:  93.8%
+Global Step: 514500, Training Batch Accuracy:  96.9%
+Global Step: 514600, Training Batch Accuracy:  96.9%
+Global Step: 514700, Training Batch Accuracy:  93.8%
+Global Step: 514800, Training Batch Accuracy:  96.9%
+Global Step: 514900, Training Batch Accuracy:  93.8%
+Global Step: 515000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 515100, Training Batch Accuracy:  96.9%
+Global Step: 515200, Training Batch Accuracy:  92.2%
+Global Step: 515300, Training Batch Accuracy:  95.3%
+Global Step: 515400, Training Batch Accuracy:  93.8%
+Global Step: 515500, Training Batch Accuracy:  98.4%
+Global Step: 515600, Training Batch Accuracy:  96.9%
+Global Step: 515700, Training Batch Accuracy:  95.3%
+Global Step: 515800, Training Batch Accuracy:  85.9%
+Global Step: 515900, Training Batch Accuracy:  93.8%
+Global Step: 516000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 516100, Training Batch Accuracy:  92.2%
+Global Step: 516200, Training Batch Accuracy:  96.9%
+Global Step: 516300, Training Batch Accuracy:  95.3%
+Global Step: 516400, Training Batch Accuracy:  95.3%
+Global Step: 516500, Training Batch Accuracy:  96.9%
+Global Step: 516600, Training Batch Accuracy:  90.6%
+Global Step: 516700, Training Batch Accuracy:  98.4%
+Global Step: 516800, Training Batch Accuracy:  93.8%
+Global Step: 516900, Training Batch Accuracy:  92.2%
+Global Step: 517000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 517100, Training Batch Accuracy:  92.2%
+Global Step: 517200, Training Batch Accuracy:  95.3%
+Global Step: 517300, Training Batch Accuracy:  96.9%
+Global Step: 517400, Training Batch Accuracy:  93.8%
+Global Step: 517500, Training Batch Accuracy:  90.6%
+Global Step: 517600, Training Batch Accuracy:  98.4%
+Global Step: 517700, Training Batch Accuracy:  89.1%
+Global Step: 517800, Training Batch Accuracy:  96.9%
+Global Step: 517900, Training Batch Accuracy:  98.4%
+Global Step: 518000, Training Batch Accuracy: 100.0%
+Saved checkpoint.
+Global Step: 518100, Training Batch Accuracy:  95.3%
+Global Step: 518200, Training Batch Accuracy:  98.4%
+Global Step: 518300, Training Batch Accuracy:  96.9%
+Global Step: 518400, Training Batch Accuracy:  95.3%
+Global Step: 518500, Training Batch Accuracy:  92.2%
+Global Step: 518600, Training Batch Accuracy:  93.8%
+Global Step: 518700, Training Batch Accuracy:  95.3%
+Global Step: 518800, Training Batch Accuracy:  92.2%
+Global Step: 518900, Training Batch Accuracy:  96.9%
+Global Step: 519000, Training Batch Accuracy:  98.4%
+Saved checkpoint.
+Global Step: 519100, Training Batch Accuracy:  92.2%
+Global Step: 519200, Training Batch Accuracy:  93.8%
+Global Step: 519300, Training Batch Accuracy:  93.8%
+Global Step: 519400, Training Batch Accuracy:  89.1%
+Global Step: 519500, Training Batch Accuracy:  90.6%
+Global Step: 519600, Training Batch Accuracy:  90.6%
+Global Step: 519700, Training Batch Accuracy:  95.3%
+Global Step: 519800, Training Batch Accuracy:  95.3%
+Global Step: 519900, Training Batch Accuracy:  92.2%
+Global Step: 520000, Training Batch Accuracy:  92.2%
+Saved checkpoint.
+Global Step: 520100, Training Batch Accuracy:  92.2%
+Global Step: 520200, Training Batch Accuracy:  90.6%
+Global Step: 520300, Training Batch Accuracy:  95.3%
+Global Step: 520400, Training Batch Accuracy:  92.2%
+Global Step: 520500, Training Batch Accuracy:  96.9%
+Global Step: 520600, Training Batch Accuracy:  95.3%
+Global Step: 520700, Training Batch Accuracy:  95.3%
+Global Step: 520800, Training Batch Accuracy:  92.2%
+Global Step: 520900, Training Batch Accuracy:  95.3%
+Global Step: 521000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 521100, Training Batch Accuracy:  95.3%
+Global Step: 521200, Training Batch Accuracy:  95.3%
+Global Step: 521300, Training Batch Accuracy:  93.8%
+Global Step: 521400, Training Batch Accuracy:  98.4%
+Global Step: 521500, Training Batch Accuracy:  92.2%
+Global Step: 521600, Training Batch Accuracy:  96.9%
+Global Step: 521700, Training Batch Accuracy:  95.3%
+Global Step: 521800, Training Batch Accuracy:  93.8%
+Global Step: 521900, Training Batch Accuracy:  92.2%
+Global Step: 522000, Training Batch Accuracy:  92.2%
+Saved checkpoint.
+Global Step: 522100, Training Batch Accuracy:  95.3%
+Global Step: 522200, Training Batch Accuracy:  96.9%
+Global Step: 522300, Training Batch Accuracy:  92.2%
+Global Step: 522400, Training Batch Accuracy:  93.8%
+Global Step: 522500, Training Batch Accuracy:  92.2%
+Global Step: 522600, Training Batch Accuracy:  96.9%
+Global Step: 522700, Training Batch Accuracy:  92.2%
+Global Step: 522800, Training Batch Accuracy:  92.2%
+Global Step: 522900, Training Batch Accuracy:  96.9%
+Global Step: 523000, Training Batch Accuracy:  90.6%
+Saved checkpoint.
+Global Step: 523100, Training Batch Accuracy:  92.2%
+Global Step: 523200, Training Batch Accuracy: 100.0%
+Global Step: 523300, Training Batch Accuracy:  96.9%
+Global Step: 523400, Training Batch Accuracy:  93.8%
+Global Step: 523500, Training Batch Accuracy:  90.6%
+Global Step: 523600, Training Batch Accuracy:  92.2%
+Global Step: 523700, Training Batch Accuracy:  96.9%
+Global Step: 523800, Training Batch Accuracy:  95.3%
+Global Step: 523900, Training Batch Accuracy:  96.9%
+Global Step: 524000, Training Batch Accuracy:  92.2%
+Saved checkpoint.
+Global Step: 524100, Training Batch Accuracy:  93.8%
+Global Step: 524200, Training Batch Accuracy:  96.9%
+Global Step: 524300, Training Batch Accuracy:  96.9%
+Global Step: 524400, Training Batch Accuracy:  93.8%
+Global Step: 524500, Training Batch Accuracy:  92.2%
+Global Step: 524600, Training Batch Accuracy:  93.8%
+Global Step: 524700, Training Batch Accuracy:  95.3%
+Global Step: 524800, Training Batch Accuracy:  92.2%
+Global Step: 524900, Training Batch Accuracy:  96.9%
+Global Step: 525000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 525100, Training Batch Accuracy:  93.8%
+Global Step: 525200, Training Batch Accuracy:  95.3%
+Global Step: 525300, Training Batch Accuracy:  93.8%
+Global Step: 525400, Training Batch Accuracy:  96.9%
+Global Step: 525500, Training Batch Accuracy:  96.9%
+Global Step: 525600, Training Batch Accuracy:  95.3%
+Global Step: 525700, Training Batch Accuracy:  92.2%
+Global Step: 525800, Training Batch Accuracy:  95.3%
+Global Step: 525900, Training Batch Accuracy:  92.2%
+Global Step: 526000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 526100, Training Batch Accuracy:  95.3%
+Global Step: 526200, Training Batch Accuracy:  93.8%
+Global Step: 526300, Training Batch Accuracy:  95.3%
+Global Step: 526400, Training Batch Accuracy:  90.6%
+Global Step: 526500, Training Batch Accuracy:  96.9%
+Global Step: 526600, Training Batch Accuracy:  92.2%
+Global Step: 526700, Training Batch Accuracy:  96.9%
+Global Step: 526800, Training Batch Accuracy:  92.2%
+Global Step: 526900, Training Batch Accuracy:  95.3%
+Global Step: 527000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 527100, Training Batch Accuracy:  96.9%
+Global Step: 527200, Training Batch Accuracy:  95.3%
+Global Step: 527300, Training Batch Accuracy: 100.0%
+Global Step: 527400, Training Batch Accuracy:  93.8%
+Global Step: 527500, Training Batch Accuracy:  92.2%
+Global Step: 527600, Training Batch Accuracy:  98.4%
+Global Step: 527700, Training Batch Accuracy:  92.2%
+Global Step: 527800, Training Batch Accuracy:  96.9%
+Global Step: 527900, Training Batch Accuracy:  84.4%
+Global Step: 528000, Training Batch Accuracy:  92.2%
+Saved checkpoint.
+Global Step: 528100, Training Batch Accuracy:  95.3%
+Global Step: 528200, Training Batch Accuracy:  93.8%
+Global Step: 528300, Training Batch Accuracy:  90.6%
+Global Step: 528400, Training Batch Accuracy:  90.6%
+Global Step: 528500, Training Batch Accuracy:  96.9%
+Global Step: 528600, Training Batch Accuracy:  95.3%
+Global Step: 528700, Training Batch Accuracy: 100.0%
+Global Step: 528800, Training Batch Accuracy:  92.2%
+Global Step: 528900, Training Batch Accuracy:  98.4%
+Global Step: 529000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 529100, Training Batch Accuracy:  93.8%
+Global Step: 529200, Training Batch Accuracy:  93.8%
+Global Step: 529300, Training Batch Accuracy:  98.4%
+Global Step: 529400, Training Batch Accuracy:  96.9%
+Global Step: 529500, Training Batch Accuracy:  93.8%
+Global Step: 529600, Training Batch Accuracy:  89.1%
+Global Step: 529700, Training Batch Accuracy:  93.8%
+Global Step: 529800, Training Batch Accuracy:  93.8%
+Global Step: 529900, Training Batch Accuracy: 100.0%
+Global Step: 530000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 530100, Training Batch Accuracy:  93.8%
+Global Step: 530200, Training Batch Accuracy:  98.4%
+Global Step: 530300, Training Batch Accuracy:  95.3%
+Global Step: 530400, Training Batch Accuracy:  89.1%
+Global Step: 530500, Training Batch Accuracy:  93.8%
+Global Step: 530600, Training Batch Accuracy:  96.9%
+Global Step: 530700, Training Batch Accuracy:  93.8%
+Global Step: 530800, Training Batch Accuracy:  95.3%
+Global Step: 530900, Training Batch Accuracy:  96.9%
+Global Step: 531000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 531100, Training Batch Accuracy:  92.2%
+Global Step: 531200, Training Batch Accuracy:  95.3%
+Global Step: 531300, Training Batch Accuracy:  98.4%
+Global Step: 531400, Training Batch Accuracy:  96.9%
+Global Step: 531500, Training Batch Accuracy:  90.6%
+Global Step: 531600, Training Batch Accuracy:  96.9%
+Global Step: 531700, Training Batch Accuracy:  95.3%
+Global Step: 531800, Training Batch Accuracy:  92.2%
+Global Step: 531900, Training Batch Accuracy:  95.3%
+Global Step: 532000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 532100, Training Batch Accuracy:  98.4%
+Global Step: 532200, Training Batch Accuracy:  95.3%
+Global Step: 532300, Training Batch Accuracy: 100.0%
+Global Step: 532400, Training Batch Accuracy:  87.5%
+Global Step: 532500, Training Batch Accuracy:  90.6%
+Global Step: 532600, Training Batch Accuracy:  93.8%
+Global Step: 532700, Training Batch Accuracy:  96.9%
+Global Step: 532800, Training Batch Accuracy:  85.9%
+Global Step: 532900, Training Batch Accuracy:  96.9%
+Global Step: 533000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 533100, Training Batch Accuracy:  96.9%
+Global Step: 533200, Training Batch Accuracy:  92.2%
+Global Step: 533300, Training Batch Accuracy:  95.3%
+Global Step: 533400, Training Batch Accuracy:  93.8%
+Global Step: 533500, Training Batch Accuracy:  95.3%
+Global Step: 533600, Training Batch Accuracy:  95.3%
+Global Step: 533700, Training Batch Accuracy:  96.9%
+Global Step: 533800, Training Batch Accuracy:  92.2%
+Global Step: 533900, Training Batch Accuracy:  96.9%
+Global Step: 534000, Training Batch Accuracy:  92.2%
+Saved checkpoint.
+Global Step: 534100, Training Batch Accuracy:  96.9%
+Global Step: 534200, Training Batch Accuracy:  96.9%
+Global Step: 534300, Training Batch Accuracy:  96.9%
+Global Step: 534400, Training Batch Accuracy:  98.4%
+Global Step: 534500, Training Batch Accuracy:  98.4%
+Global Step: 534600, Training Batch Accuracy:  93.8%
+Global Step: 534700, Training Batch Accuracy:  93.8%
+Global Step: 534800, Training Batch Accuracy:  95.3%
+Global Step: 534900, Training Batch Accuracy:  98.4%
+Global Step: 535000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 535100, Training Batch Accuracy:  93.8%
+Global Step: 535200, Training Batch Accuracy:  93.8%
+Global Step: 535300, Training Batch Accuracy:  95.3%
+Global Step: 535400, Training Batch Accuracy:  98.4%
+Global Step: 535500, Training Batch Accuracy:  95.3%
+Global Step: 535600, Training Batch Accuracy:  90.6%
+Global Step: 535700, Training Batch Accuracy:  93.8%
+Global Step: 535800, Training Batch Accuracy:  96.9%
+Global Step: 535900, Training Batch Accuracy: 100.0%
+Global Step: 536000, Training Batch Accuracy: 100.0%
+Saved checkpoint.
+Global Step: 536100, Training Batch Accuracy:  96.9%
+Global Step: 536200, Training Batch Accuracy:  89.1%
+Global Step: 536300, Training Batch Accuracy: 100.0%
+Global Step: 536400, Training Batch Accuracy:  96.9%
+Global Step: 536500, Training Batch Accuracy:  89.1%
+Global Step: 536600, Training Batch Accuracy:  95.3%
+Global Step: 536700, Training Batch Accuracy:  96.9%
+Global Step: 536800, Training Batch Accuracy:  98.4%
+Global Step: 536900, Training Batch Accuracy:  95.3%
+Global Step: 537000, Training Batch Accuracy:  92.2%
+Saved checkpoint.
+Global Step: 537100, Training Batch Accuracy:  87.5%
+Global Step: 537200, Training Batch Accuracy:  96.9%
+Global Step: 537300, Training Batch Accuracy: 100.0%
+Global Step: 537400, Training Batch Accuracy:  93.8%
+Global Step: 537500, Training Batch Accuracy:  96.9%
+Global Step: 537600, Training Batch Accuracy:  98.4%
+Global Step: 537700, Training Batch Accuracy:  95.3%
+Global Step: 537800, Training Batch Accuracy:  93.8%
+Global Step: 537900, Training Batch Accuracy:  95.3%
+Global Step: 538000, Training Batch Accuracy:  89.1%
+Saved checkpoint.
+Global Step: 538100, Training Batch Accuracy:  98.4%
+Global Step: 538200, Training Batch Accuracy:  93.8%
+Global Step: 538300, Training Batch Accuracy:  95.3%
+Global Step: 538400, Training Batch Accuracy:  95.3%
+Global Step: 538500, Training Batch Accuracy:  95.3%
+Global Step: 538600, Training Batch Accuracy:  95.3%
+Global Step: 538700, Training Batch Accuracy:  95.3%
+Global Step: 538800, Training Batch Accuracy:  92.2%
+Global Step: 538900, Training Batch Accuracy: 100.0%
+Global Step: 539000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 539100, Training Batch Accuracy:  93.8%
+Global Step: 539200, Training Batch Accuracy:  96.9%
+Global Step: 539300, Training Batch Accuracy:  96.9%
+Global Step: 539400, Training Batch Accuracy:  93.8%
+Global Step: 539500, Training Batch Accuracy:  95.3%
+Global Step: 539600, Training Batch Accuracy:  95.3%
+Global Step: 539700, Training Batch Accuracy:  96.9%
+Global Step: 539800, Training Batch Accuracy:  93.8%
+Global Step: 539900, Training Batch Accuracy: 100.0%
+Global Step: 540000, Training Batch Accuracy:  92.2%
+Saved checkpoint.
+Global Step: 540100, Training Batch Accuracy:  93.8%
+Global Step: 540200, Training Batch Accuracy:  96.9%
+Global Step: 540300, Training Batch Accuracy:  95.3%
+Global Step: 540400, Training Batch Accuracy:  98.4%
+Global Step: 540500, Training Batch Accuracy:  96.9%
+Global Step: 540600, Training Batch Accuracy:  96.9%
+Global Step: 540700, Training Batch Accuracy:  98.4%
+Global Step: 540800, Training Batch Accuracy:  96.9%
+Global Step: 540900, Training Batch Accuracy:  95.3%
+Global Step: 541000, Training Batch Accuracy:  87.5%
+Saved checkpoint.
+Global Step: 541100, Training Batch Accuracy:  98.4%
+Global Step: 541200, Training Batch Accuracy:  89.1%
+Global Step: 541300, Training Batch Accuracy:  98.4%
+Global Step: 541400, Training Batch Accuracy:  95.3%
+Global Step: 541500, Training Batch Accuracy:  98.4%
+Global Step: 541600, Training Batch Accuracy:  98.4%
+Global Step: 541700, Training Batch Accuracy:  89.1%
+Global Step: 541800, Training Batch Accuracy:  95.3%
+Global Step: 541900, Training Batch Accuracy:  95.3%
+Global Step: 542000, Training Batch Accuracy:  98.4%
+Saved checkpoint.
+Global Step: 542100, Training Batch Accuracy:  95.3%
+Global Step: 542200, Training Batch Accuracy:  96.9%
+Global Step: 542300, Training Batch Accuracy:  96.9%
+Global Step: 542400, Training Batch Accuracy:  96.9%
+Global Step: 542500, Training Batch Accuracy:  92.2%
+Global Step: 542600, Training Batch Accuracy:  90.6%
+Global Step: 542700, Training Batch Accuracy:  87.5%
+Global Step: 542800, Training Batch Accuracy:  93.8%
+Global Step: 542900, Training Batch Accuracy:  92.2%
+Global Step: 543000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 543100, Training Batch Accuracy:  89.1%
+Global Step: 543200, Training Batch Accuracy:  93.8%
+Global Step: 543300, Training Batch Accuracy:  95.3%
+Global Step: 543400, Training Batch Accuracy:  98.4%
+Global Step: 543500, Training Batch Accuracy:  92.2%
+Global Step: 543600, Training Batch Accuracy:  96.9%
+Global Step: 543700, Training Batch Accuracy:  98.4%
+Global Step: 543800, Training Batch Accuracy:  93.8%
+Global Step: 543900, Training Batch Accuracy:  93.8%
+Global Step: 544000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 544100, Training Batch Accuracy:  95.3%
+Global Step: 544200, Training Batch Accuracy:  98.4%
+Global Step: 544300, Training Batch Accuracy:  96.9%
+Global Step: 544400, Training Batch Accuracy:  96.9%
+Global Step: 544500, Training Batch Accuracy:  93.8%
+Global Step: 544600, Training Batch Accuracy:  89.1%
+Global Step: 544700, Training Batch Accuracy:  92.2%
+Global Step: 544800, Training Batch Accuracy:  96.9%
+Global Step: 544900, Training Batch Accuracy:  98.4%
+Global Step: 545000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 545100, Training Batch Accuracy:  90.6%
+Global Step: 545200, Training Batch Accuracy:  98.4%
+Global Step: 545300, Training Batch Accuracy:  95.3%
+Global Step: 545400, Training Batch Accuracy:  96.9%
+Global Step: 545500, Training Batch Accuracy:  93.8%
+Global Step: 545600, Training Batch Accuracy:  98.4%
+Global Step: 545700, Training Batch Accuracy: 100.0%
+Global Step: 545800, Training Batch Accuracy:  95.3%
+Global Step: 545900, Training Batch Accuracy:  93.8%
+Global Step: 546000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 546100, Training Batch Accuracy:  92.2%
+Global Step: 546200, Training Batch Accuracy:  93.8%
+Global Step: 546300, Training Batch Accuracy:  85.9%
+Global Step: 546400, Training Batch Accuracy:  95.3%
+Global Step: 546500, Training Batch Accuracy:  96.9%
+Global Step: 546600, Training Batch Accuracy:  98.4%
+Global Step: 546700, Training Batch Accuracy:  98.4%
+Global Step: 546800, Training Batch Accuracy:  95.3%
+Global Step: 546900, Training Batch Accuracy:  92.2%
+Global Step: 547000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 547100, Training Batch Accuracy:  98.4%
+Global Step: 547200, Training Batch Accuracy:  92.2%
+Global Step: 547300, Training Batch Accuracy:  98.4%
+Global Step: 547400, Training Batch Accuracy:  93.8%
+Global Step: 547500, Training Batch Accuracy:  95.3%
+Global Step: 547600, Training Batch Accuracy:  98.4%
+Global Step: 547700, Training Batch Accuracy:  93.8%
+Global Step: 547800, Training Batch Accuracy:  92.2%
+Global Step: 547900, Training Batch Accuracy:  92.2%
+Global Step: 548000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 548100, Training Batch Accuracy:  96.9%
+Global Step: 548200, Training Batch Accuracy:  90.6%
+Global Step: 548300, Training Batch Accuracy:  93.8%
+Global Step: 548400, Training Batch Accuracy:  96.9%
+Global Step: 548500, Training Batch Accuracy:  95.3%
+Global Step: 548600, Training Batch Accuracy:  98.4%
+Global Step: 548700, Training Batch Accuracy:  96.9%
+Global Step: 548800, Training Batch Accuracy:  92.2%
+Global Step: 548900, Training Batch Accuracy:  96.9%
+Global Step: 549000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 549100, Training Batch Accuracy:  96.9%
+Global Step: 549200, Training Batch Accuracy:  93.8%
+Global Step: 549300, Training Batch Accuracy:  92.2%
+Global Step: 549400, Training Batch Accuracy:  93.8%
+Global Step: 549500, Training Batch Accuracy:  89.1%
+Global Step: 549600, Training Batch Accuracy:  92.2%
+Global Step: 549700, Training Batch Accuracy:  96.9%
+Global Step: 549800, Training Batch Accuracy:  93.8%
+Global Step: 549900, Training Batch Accuracy: 100.0%
+Global Step: 550000, Training Batch Accuracy:  92.2%
+Saved checkpoint.
+Global Step: 550100, Training Batch Accuracy:  96.9%
+Global Step: 550200, Training Batch Accuracy:  89.1%
+Global Step: 550300, Training Batch Accuracy:  90.6%
+Global Step: 550400, Training Batch Accuracy:  90.6%
+Global Step: 550500, Training Batch Accuracy:  93.8%
+Global Step: 550600, Training Batch Accuracy: 100.0%
+Global Step: 550700, Training Batch Accuracy:  98.4%
+Global Step: 550800, Training Batch Accuracy:  98.4%
+Global Step: 550900, Training Batch Accuracy:  96.9%
+Global Step: 551000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 551100, Training Batch Accuracy:  90.6%
+Global Step: 551200, Training Batch Accuracy:  98.4%
+Global Step: 551300, Training Batch Accuracy:  96.9%
+Global Step: 551400, Training Batch Accuracy:  95.3%
+Global Step: 551500, Training Batch Accuracy:  96.9%
+Global Step: 551600, Training Batch Accuracy:  93.8%
+Global Step: 551700, Training Batch Accuracy:  93.8%
+Global Step: 551800, Training Batch Accuracy:  92.2%
+Global Step: 551900, Training Batch Accuracy:  95.3%
+Global Step: 552000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 552100, Training Batch Accuracy:  96.9%
+Global Step: 552200, Training Batch Accuracy:  93.8%
+Global Step: 552300, Training Batch Accuracy:  92.2%
+Global Step: 552400, Training Batch Accuracy:  96.9%
+Global Step: 552500, Training Batch Accuracy:  96.9%
+Global Step: 552600, Training Batch Accuracy:  96.9%
+Global Step: 552700, Training Batch Accuracy:  95.3%
+Global Step: 552800, Training Batch Accuracy:  92.2%
+Global Step: 552900, Training Batch Accuracy:  93.8%
+Global Step: 553000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 553100, Training Batch Accuracy:  95.3%
+Global Step: 553200, Training Batch Accuracy:  96.9%
+Global Step: 553300, Training Batch Accuracy:  93.8%
+Global Step: 553400, Training Batch Accuracy:  96.9%
+Global Step: 553500, Training Batch Accuracy:  93.8%
+Global Step: 553600, Training Batch Accuracy:  95.3%
+Global Step: 553700, Training Batch Accuracy:  96.9%
+Global Step: 553800, Training Batch Accuracy:  95.3%
+Global Step: 553900, Training Batch Accuracy:  95.3%
+Global Step: 554000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 554100, Training Batch Accuracy:  93.8%
+Global Step: 554200, Training Batch Accuracy:  93.8%
+Global Step: 554300, Training Batch Accuracy:  92.2%
+Global Step: 554400, Training Batch Accuracy:  95.3%
+Global Step: 554500, Training Batch Accuracy:  92.2%
+Global Step: 554600, Training Batch Accuracy:  92.2%
+Global Step: 554700, Training Batch Accuracy:  98.4%
+Global Step: 554800, Training Batch Accuracy:  95.3%
+Global Step: 554900, Training Batch Accuracy: 100.0%
+Global Step: 555000, Training Batch Accuracy:  98.4%
+Saved checkpoint.
+Global Step: 555100, Training Batch Accuracy:  90.6%
+Global Step: 555200, Training Batch Accuracy:  96.9%
+Global Step: 555300, Training Batch Accuracy:  93.8%
+Global Step: 555400, Training Batch Accuracy:  96.9%
+Global Step: 555500, Training Batch Accuracy:  96.9%
+Global Step: 555600, Training Batch Accuracy:  87.5%
+Global Step: 555700, Training Batch Accuracy:  98.4%
+Global Step: 555800, Training Batch Accuracy:  98.4%
+Global Step: 555900, Training Batch Accuracy: 100.0%
+Global Step: 556000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 556100, Training Batch Accuracy: 100.0%
+Global Step: 556200, Training Batch Accuracy:  95.3%
+Global Step: 556300, Training Batch Accuracy:  93.8%
+Global Step: 556400, Training Batch Accuracy:  98.4%
+Global Step: 556500, Training Batch Accuracy:  95.3%
+Global Step: 556600, Training Batch Accuracy:  98.4%
+Global Step: 556700, Training Batch Accuracy:  95.3%
+Global Step: 556800, Training Batch Accuracy:  95.3%
+Global Step: 556900, Training Batch Accuracy:  95.3%
+Global Step: 557000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 557100, Training Batch Accuracy:  96.9%
+Global Step: 557200, Training Batch Accuracy:  96.9%
+Global Step: 557300, Training Batch Accuracy:  93.8%
+Global Step: 557400, Training Batch Accuracy: 100.0%
+Global Step: 557500, Training Batch Accuracy:  98.4%
+Global Step: 557600, Training Batch Accuracy:  96.9%
+Global Step: 557700, Training Batch Accuracy:  95.3%
+Global Step: 557800, Training Batch Accuracy:  93.8%
+Global Step: 557900, Training Batch Accuracy:  95.3%
+Global Step: 558000, Training Batch Accuracy:  98.4%
+Saved checkpoint.
+Global Step: 558100, Training Batch Accuracy:  98.4%
+Global Step: 558200, Training Batch Accuracy:  95.3%
+Global Step: 558300, Training Batch Accuracy:  90.6%
+Global Step: 558400, Training Batch Accuracy:  93.8%
+Global Step: 558500, Training Batch Accuracy:  93.8%
+Global Step: 558600, Training Batch Accuracy:  96.9%
+Global Step: 558700, Training Batch Accuracy:  90.6%
+Global Step: 558800, Training Batch Accuracy:  93.8%
+Global Step: 558900, Training Batch Accuracy:  93.8%
+Global Step: 559000, Training Batch Accuracy:  89.1%
+Saved checkpoint.
+Global Step: 559100, Training Batch Accuracy:  98.4%
+Global Step: 559200, Training Batch Accuracy:  92.2%
+Global Step: 559300, Training Batch Accuracy:  96.9%
+Global Step: 559400, Training Batch Accuracy:  98.4%
+Global Step: 559500, Training Batch Accuracy:  96.9%
+Global Step: 559600, Training Batch Accuracy:  96.9%
+Global Step: 559700, Training Batch Accuracy:  92.2%
+Global Step: 559800, Training Batch Accuracy:  93.8%
+Global Step: 559900, Training Batch Accuracy:  95.3%
+Global Step: 560000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 560100, Training Batch Accuracy:  95.3%
+Global Step: 560200, Training Batch Accuracy: 100.0%
+Global Step: 560300, Training Batch Accuracy:  95.3%
+Global Step: 560400, Training Batch Accuracy:  93.8%
+Global Step: 560500, Training Batch Accuracy:  98.4%
+Global Step: 560600, Training Batch Accuracy: 100.0%
+Global Step: 560700, Training Batch Accuracy:  93.8%
+Global Step: 560800, Training Batch Accuracy:  96.9%
+Global Step: 560900, Training Batch Accuracy:  95.3%
+Global Step: 561000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 561100, Training Batch Accuracy:  98.4%
+Global Step: 561200, Training Batch Accuracy:  93.8%
+Global Step: 561300, Training Batch Accuracy:  95.3%
+Global Step: 561400, Training Batch Accuracy:  96.9%
+Global Step: 561500, Training Batch Accuracy:  96.9%
+Global Step: 561600, Training Batch Accuracy:  95.3%
+Global Step: 561700, Training Batch Accuracy:  95.3%
+Global Step: 561800, Training Batch Accuracy:  92.2%
+Global Step: 561900, Training Batch Accuracy:  96.9%
+Global Step: 562000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 562100, Training Batch Accuracy:  96.9%
+Global Step: 562200, Training Batch Accuracy:  93.8%
+Global Step: 562300, Training Batch Accuracy:  93.8%
+Global Step: 562400, Training Batch Accuracy:  95.3%
+Global Step: 562500, Training Batch Accuracy:  92.2%
+Global Step: 562600, Training Batch Accuracy:  95.3%
+Global Step: 562700, Training Batch Accuracy:  93.8%
+Global Step: 562800, Training Batch Accuracy:  95.3%
+Global Step: 562900, Training Batch Accuracy:  93.8%
+Global Step: 563000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 563100, Training Batch Accuracy:  95.3%
+Global Step: 563200, Training Batch Accuracy:  96.9%
+Global Step: 563300, Training Batch Accuracy:  96.9%
+Global Step: 563400, Training Batch Accuracy:  95.3%
+Global Step: 563500, Training Batch Accuracy:  96.9%
+Global Step: 563600, Training Batch Accuracy:  95.3%
+Global Step: 563700, Training Batch Accuracy:  93.8%
+Global Step: 563800, Training Batch Accuracy:  98.4%
+Global Step: 563900, Training Batch Accuracy:  95.3%
+Global Step: 564000, Training Batch Accuracy: 100.0%
+Saved checkpoint.
+Global Step: 564100, Training Batch Accuracy:  92.2%
+Global Step: 564200, Training Batch Accuracy:  89.1%
+Global Step: 564300, Training Batch Accuracy:  93.8%
+Global Step: 564400, Training Batch Accuracy:  96.9%
+Global Step: 564500, Training Batch Accuracy:  92.2%
+Global Step: 564600, Training Batch Accuracy:  95.3%
+Global Step: 564700, Training Batch Accuracy:  93.8%
+Global Step: 564800, Training Batch Accuracy:  92.2%
+Global Step: 564900, Training Batch Accuracy:  95.3%
+Global Step: 565000, Training Batch Accuracy:  92.2%
+Saved checkpoint.
+Global Step: 565100, Training Batch Accuracy:  98.4%
+Global Step: 565200, Training Batch Accuracy:  96.9%
+Global Step: 565300, Training Batch Accuracy:  96.9%
+Global Step: 565400, Training Batch Accuracy:  93.8%
+Global Step: 565500, Training Batch Accuracy:  93.8%
+Global Step: 565600, Training Batch Accuracy:  92.2%
+Global Step: 565700, Training Batch Accuracy:  98.4%
+Global Step: 565800, Training Batch Accuracy:  92.2%
+Global Step: 565900, Training Batch Accuracy:  93.8%
+Global Step: 566000, Training Batch Accuracy: 100.0%
+Saved checkpoint.
+Global Step: 566100, Training Batch Accuracy:  96.9%
+Global Step: 566200, Training Batch Accuracy:  92.2%
+Global Step: 566300, Training Batch Accuracy:  92.2%
+Global Step: 566400, Training Batch Accuracy:  98.4%
+Global Step: 566500, Training Batch Accuracy:  96.9%
+Global Step: 566600, Training Batch Accuracy:  93.8%
+Global Step: 566700, Training Batch Accuracy:  90.6%
+Global Step: 566800, Training Batch Accuracy:  96.9%
+Global Step: 566900, Training Batch Accuracy:  93.8%
+Global Step: 567000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 567100, Training Batch Accuracy:  93.8%
+Global Step: 567200, Training Batch Accuracy:  93.8%
+Global Step: 567300, Training Batch Accuracy:  95.3%
+Global Step: 567400, Training Batch Accuracy:  98.4%
+Global Step: 567500, Training Batch Accuracy:  96.9%
+Global Step: 567600, Training Batch Accuracy:  96.9%
+Global Step: 567700, Training Batch Accuracy:  93.8%
+Global Step: 567800, Training Batch Accuracy:  93.8%
+Global Step: 567900, Training Batch Accuracy:  93.8%
+Global Step: 568000, Training Batch Accuracy:  98.4%
+Saved checkpoint.
+Global Step: 568100, Training Batch Accuracy:  93.8%
+Global Step: 568200, Training Batch Accuracy:  90.6%
+Global Step: 568300, Training Batch Accuracy:  95.3%
+Global Step: 568400, Training Batch Accuracy:  87.5%
+Global Step: 568500, Training Batch Accuracy:  96.9%
+Global Step: 568600, Training Batch Accuracy:  96.9%
+Global Step: 568700, Training Batch Accuracy:  93.8%
+Global Step: 568800, Training Batch Accuracy:  95.3%
+Global Step: 568900, Training Batch Accuracy:  93.8%
+Global Step: 569000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 569100, Training Batch Accuracy:  96.9%
+Global Step: 569200, Training Batch Accuracy:  93.8%
+Global Step: 569300, Training Batch Accuracy:  96.9%
+Global Step: 569400, Training Batch Accuracy:  95.3%
+Global Step: 569500, Training Batch Accuracy:  95.3%
+Global Step: 569600, Training Batch Accuracy:  98.4%
+Global Step: 569700, Training Batch Accuracy:  96.9%
+Global Step: 569800, Training Batch Accuracy:  93.8%
+Global Step: 569900, Training Batch Accuracy:  95.3%
+Global Step: 570000, Training Batch Accuracy:  92.2%
+Saved checkpoint.
+Global Step: 570100, Training Batch Accuracy:  90.6%
+Global Step: 570200, Training Batch Accuracy:  93.8%
+Global Step: 570300, Training Batch Accuracy:  90.6%
+Global Step: 570400, Training Batch Accuracy:  96.9%
+Global Step: 570500, Training Batch Accuracy:  93.8%
+Global Step: 570600, Training Batch Accuracy:  93.8%
+Global Step: 570700, Training Batch Accuracy:  98.4%
+Global Step: 570800, Training Batch Accuracy:  95.3%
+Global Step: 570900, Training Batch Accuracy:  89.1%
+Global Step: 571000, Training Batch Accuracy:  98.4%
+Saved checkpoint.
+Global Step: 571100, Training Batch Accuracy:  90.6%
+Global Step: 571200, Training Batch Accuracy:  92.2%
+Global Step: 571300, Training Batch Accuracy: 100.0%
+Global Step: 571400, Training Batch Accuracy:  96.9%
+Global Step: 571500, Training Batch Accuracy:  96.9%
+Global Step: 571600, Training Batch Accuracy:  93.8%
+Global Step: 571700, Training Batch Accuracy:  96.9%
+Global Step: 571800, Training Batch Accuracy:  98.4%
+Global Step: 571900, Training Batch Accuracy:  95.3%
+Global Step: 572000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 572100, Training Batch Accuracy:  92.2%
+Global Step: 572200, Training Batch Accuracy: 100.0%
+Global Step: 572300, Training Batch Accuracy:  95.3%
+Global Step: 572400, Training Batch Accuracy:  90.6%
+Global Step: 572500, Training Batch Accuracy:  95.3%
+Global Step: 572600, Training Batch Accuracy:  92.2%
+Global Step: 572700, Training Batch Accuracy:  93.8%
+Global Step: 572800, Training Batch Accuracy:  96.9%
+Global Step: 572900, Training Batch Accuracy:  95.3%
+Global Step: 573000, Training Batch Accuracy:  92.2%
+Saved checkpoint.
+Global Step: 573100, Training Batch Accuracy:  95.3%
+Global Step: 573200, Training Batch Accuracy:  93.8%
+Global Step: 573300, Training Batch Accuracy:  93.8%
+Global Step: 573400, Training Batch Accuracy:  95.3%
+Global Step: 573500, Training Batch Accuracy:  92.2%
+Global Step: 573600, Training Batch Accuracy:  95.3%
+Global Step: 573700, Training Batch Accuracy:  96.9%
+Global Step: 573800, Training Batch Accuracy:  96.9%
+Global Step: 573900, Training Batch Accuracy:  98.4%
+Global Step: 574000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 574100, Training Batch Accuracy:  89.1%
+Global Step: 574200, Training Batch Accuracy:  96.9%
+Global Step: 574300, Training Batch Accuracy:  92.2%
+Global Step: 574400, Training Batch Accuracy:  96.9%
+Global Step: 574500, Training Batch Accuracy:  98.4%
+Global Step: 574600, Training Batch Accuracy:  93.8%
+Global Step: 574700, Training Batch Accuracy:  98.4%
+Global Step: 574800, Training Batch Accuracy:  92.2%
+Global Step: 574900, Training Batch Accuracy:  98.4%
+Global Step: 575000, Training Batch Accuracy:  92.2%
+Saved checkpoint.
+Global Step: 575100, Training Batch Accuracy:  98.4%
+Global Step: 575200, Training Batch Accuracy:  93.8%
+Global Step: 575300, Training Batch Accuracy:  96.9%
+Global Step: 575400, Training Batch Accuracy:  95.3%
+Global Step: 575500, Training Batch Accuracy:  93.8%
+Global Step: 575600, Training Batch Accuracy:  96.9%
+Global Step: 575700, Training Batch Accuracy:  92.2%
+Global Step: 575800, Training Batch Accuracy:  95.3%
+Global Step: 575900, Training Batch Accuracy:  96.9%
+Global Step: 576000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 576100, Training Batch Accuracy:  93.8%
+Global Step: 576200, Training Batch Accuracy:  96.9%
+Global Step: 576300, Training Batch Accuracy:  95.3%
+Global Step: 576400, Training Batch Accuracy:  96.9%
+Global Step: 576500, Training Batch Accuracy:  93.8%
+Global Step: 576600, Training Batch Accuracy:  89.1%
+Global Step: 576700, Training Batch Accuracy:  93.8%
+Global Step: 576800, Training Batch Accuracy:  95.3%
+Global Step: 576900, Training Batch Accuracy:  98.4%
+Global Step: 577000, Training Batch Accuracy:  98.4%
+Saved checkpoint.
+Global Step: 577100, Training Batch Accuracy:  95.3%
+Global Step: 577200, Training Batch Accuracy:  96.9%
+Global Step: 577300, Training Batch Accuracy:  98.4%
+Global Step: 577400, Training Batch Accuracy:  92.2%
+Global Step: 577500, Training Batch Accuracy:  96.9%
+Global Step: 577600, Training Batch Accuracy: 100.0%
+Global Step: 577700, Training Batch Accuracy:  95.3%
+Global Step: 577800, Training Batch Accuracy:  95.3%
+Global Step: 577900, Training Batch Accuracy:  96.9%
+Global Step: 578000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 578100, Training Batch Accuracy:  96.9%
+Global Step: 578200, Training Batch Accuracy:  96.9%
+Global Step: 578300, Training Batch Accuracy:  95.3%
+Global Step: 578400, Training Batch Accuracy:  98.4%
+Global Step: 578500, Training Batch Accuracy:  98.4%
+Global Step: 578600, Training Batch Accuracy:  87.5%
+Global Step: 578700, Training Batch Accuracy:  96.9%
+Global Step: 578800, Training Batch Accuracy:  96.9%
+Global Step: 578900, Training Batch Accuracy:  96.9%
+Global Step: 579000, Training Batch Accuracy:  98.4%
+Saved checkpoint.
+Global Step: 579100, Training Batch Accuracy:  95.3%
+Global Step: 579200, Training Batch Accuracy:  93.8%
+Global Step: 579300, Training Batch Accuracy:  93.8%
+Global Step: 579400, Training Batch Accuracy:  96.9%
+Global Step: 579500, Training Batch Accuracy:  96.9%
+Global Step: 579600, Training Batch Accuracy:  93.8%
+Global Step: 579700, Training Batch Accuracy:  89.1%
+Global Step: 579800, Training Batch Accuracy:  95.3%
+Global Step: 579900, Training Batch Accuracy:  92.2%
+Global Step: 580000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 580100, Training Batch Accuracy: 100.0%
+Global Step: 580200, Training Batch Accuracy:  96.9%
+Global Step: 580300, Training Batch Accuracy:  93.8%
+Global Step: 580400, Training Batch Accuracy: 100.0%
+Global Step: 580500, Training Batch Accuracy:  89.1%
+Global Step: 580600, Training Batch Accuracy:  85.9%
+Global Step: 580700, Training Batch Accuracy:  96.9%
+Global Step: 580800, Training Batch Accuracy:  92.2%
+Global Step: 580900, Training Batch Accuracy:  95.3%
+Global Step: 581000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 581100, Training Batch Accuracy:  93.8%
+Global Step: 581200, Training Batch Accuracy:  95.3%
+Global Step: 581300, Training Batch Accuracy:  92.2%
+Global Step: 581400, Training Batch Accuracy:  90.6%
+Global Step: 581500, Training Batch Accuracy:  96.9%
+Global Step: 581600, Training Batch Accuracy:  95.3%
+Global Step: 581700, Training Batch Accuracy:  96.9%
+Global Step: 581800, Training Batch Accuracy:  96.9%
+Global Step: 581900, Training Batch Accuracy:  95.3%
+Global Step: 582000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 582100, Training Batch Accuracy:  96.9%
+Global Step: 582200, Training Batch Accuracy:  96.9%
+Global Step: 582300, Training Batch Accuracy:  92.2%
+Global Step: 582400, Training Batch Accuracy:  96.9%
+Global Step: 582500, Training Batch Accuracy:  93.8%
+Global Step: 582600, Training Batch Accuracy: 100.0%
+Global Step: 582700, Training Batch Accuracy:  93.8%
+Global Step: 582800, Training Batch Accuracy:  96.9%
+Global Step: 582900, Training Batch Accuracy:  98.4%
+Global Step: 583000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 583100, Training Batch Accuracy:  93.8%
+Global Step: 583200, Training Batch Accuracy:  93.8%
+Global Step: 583300, Training Batch Accuracy:  93.8%
+Global Step: 583400, Training Batch Accuracy:  92.2%
+Global Step: 583500, Training Batch Accuracy:  96.9%
+Global Step: 583600, Training Batch Accuracy:  92.2%
+Global Step: 583700, Training Batch Accuracy:  93.8%
+Global Step: 583800, Training Batch Accuracy:  92.2%
+Global Step: 583900, Training Batch Accuracy:  95.3%
+Global Step: 584000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 584100, Training Batch Accuracy:  90.6%
+Global Step: 584200, Training Batch Accuracy:  93.8%
+Global Step: 584300, Training Batch Accuracy:  96.9%
+Global Step: 584400, Training Batch Accuracy:  90.6%
+Global Step: 584500, Training Batch Accuracy:  93.8%
+Global Step: 584600, Training Batch Accuracy:  98.4%
+Global Step: 584700, Training Batch Accuracy:  96.9%
+Global Step: 584800, Training Batch Accuracy:  96.9%
+Global Step: 584900, Training Batch Accuracy:  96.9%
+Global Step: 585000, Training Batch Accuracy:  92.2%
+Saved checkpoint.
+Global Step: 585100, Training Batch Accuracy:  96.9%
+Global Step: 585200, Training Batch Accuracy:  96.9%
+Global Step: 585300, Training Batch Accuracy:  98.4%
+Global Step: 585400, Training Batch Accuracy:  95.3%
+Global Step: 585500, Training Batch Accuracy:  93.8%
+Global Step: 585600, Training Batch Accuracy: 100.0%
+Global Step: 585700, Training Batch Accuracy: 100.0%
+Global Step: 585800, Training Batch Accuracy: 100.0%
+Global Step: 585900, Training Batch Accuracy:  92.2%
+Global Step: 586000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 586100, Training Batch Accuracy:  95.3%
+Global Step: 586200, Training Batch Accuracy:  96.9%
+Global Step: 586300, Training Batch Accuracy:  98.4%
+Global Step: 586400, Training Batch Accuracy:  95.3%
+Global Step: 586500, Training Batch Accuracy:  93.8%
+Global Step: 586600, Training Batch Accuracy:  90.6%
+Global Step: 586700, Training Batch Accuracy:  95.3%
+Global Step: 586800, Training Batch Accuracy:  92.2%
+Global Step: 586900, Training Batch Accuracy:  98.4%
+Global Step: 587000, Training Batch Accuracy:  98.4%
+Saved checkpoint.
+Global Step: 587100, Training Batch Accuracy:  98.4%
+Global Step: 587200, Training Batch Accuracy: 100.0%
+Global Step: 587300, Training Batch Accuracy:  92.2%
+Global Step: 587400, Training Batch Accuracy:  95.3%
+Global Step: 587500, Training Batch Accuracy:  96.9%
+Global Step: 587600, Training Batch Accuracy:  98.4%
+Global Step: 587700, Training Batch Accuracy:  95.3%
+Global Step: 587800, Training Batch Accuracy:  93.8%
+Global Step: 587900, Training Batch Accuracy:  95.3%
+Global Step: 588000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 588100, Training Batch Accuracy:  87.5%
+Global Step: 588200, Training Batch Accuracy:  95.3%
+Global Step: 588300, Training Batch Accuracy:  98.4%
+Global Step: 588400, Training Batch Accuracy:  98.4%
+Global Step: 588500, Training Batch Accuracy:  96.9%
+Global Step: 588600, Training Batch Accuracy:  96.9%
+Global Step: 588700, Training Batch Accuracy:  92.2%
+Global Step: 588800, Training Batch Accuracy:  96.9%
+Global Step: 588900, Training Batch Accuracy:  95.3%
+Global Step: 589000, Training Batch Accuracy: 100.0%
+Saved checkpoint.
+Global Step: 589100, Training Batch Accuracy:  96.9%
+Global Step: 589200, Training Batch Accuracy:  92.2%
+Global Step: 589300, Training Batch Accuracy:  96.9%
+Global Step: 589400, Training Batch Accuracy:  96.9%
+Global Step: 589500, Training Batch Accuracy:  96.9%
+Global Step: 589600, Training Batch Accuracy:  90.6%
+Global Step: 589700, Training Batch Accuracy:  93.8%
+Global Step: 589800, Training Batch Accuracy:  96.9%
+Global Step: 589900, Training Batch Accuracy:  95.3%
+Global Step: 590000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 590100, Training Batch Accuracy:  96.9%
+Global Step: 590200, Training Batch Accuracy:  93.8%
+Global Step: 590300, Training Batch Accuracy:  92.2%
+Global Step: 590400, Training Batch Accuracy: 100.0%
+Global Step: 590500, Training Batch Accuracy:  95.3%
+Global Step: 590600, Training Batch Accuracy:  85.9%
+Global Step: 590700, Training Batch Accuracy:  96.9%
+Global Step: 590800, Training Batch Accuracy:  92.2%
+Global Step: 590900, Training Batch Accuracy:  96.9%
+Global Step: 591000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 591100, Training Batch Accuracy:  92.2%
+Global Step: 591200, Training Batch Accuracy:  95.3%
+Global Step: 591300, Training Batch Accuracy:  98.4%
+Global Step: 591400, Training Batch Accuracy:  93.8%
+Global Step: 591500, Training Batch Accuracy:  95.3%
+Global Step: 591600, Training Batch Accuracy:  95.3%
+Global Step: 591700, Training Batch Accuracy:  92.2%
+Global Step: 591800, Training Batch Accuracy:  98.4%
+Global Step: 591900, Training Batch Accuracy:  93.8%
+Global Step: 592000, Training Batch Accuracy:  98.4%
+Saved checkpoint.
+Global Step: 592100, Training Batch Accuracy: 100.0%
+Global Step: 592200, Training Batch Accuracy:  93.8%
+Global Step: 592300, Training Batch Accuracy:  98.4%
+Global Step: 592400, Training Batch Accuracy:  98.4%
+Global Step: 592500, Training Batch Accuracy:  93.8%
+Global Step: 592600, Training Batch Accuracy:  90.6%
+Global Step: 592700, Training Batch Accuracy:  96.9%
+Global Step: 592800, Training Batch Accuracy:  87.5%
+Global Step: 592900, Training Batch Accuracy:  92.2%
+Global Step: 593000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 593100, Training Batch Accuracy:  93.8%
+Global Step: 593200, Training Batch Accuracy:  95.3%
+Global Step: 593300, Training Batch Accuracy:  95.3%
+Global Step: 593400, Training Batch Accuracy:  93.8%
+Global Step: 593500, Training Batch Accuracy:  98.4%
+Global Step: 593600, Training Batch Accuracy:  96.9%
+Global Step: 593700, Training Batch Accuracy:  96.9%
+Global Step: 593800, Training Batch Accuracy:  90.6%
+Global Step: 593900, Training Batch Accuracy:  96.9%
+Global Step: 594000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 594100, Training Batch Accuracy:  93.8%
+Global Step: 594200, Training Batch Accuracy:  85.9%
+Global Step: 594300, Training Batch Accuracy:  95.3%
+Global Step: 594400, Training Batch Accuracy:  90.6%
+Global Step: 594500, Training Batch Accuracy:  93.8%
+Global Step: 594600, Training Batch Accuracy:  95.3%
+Global Step: 594700, Training Batch Accuracy:  95.3%
+Global Step: 594800, Training Batch Accuracy:  93.8%
+Global Step: 594900, Training Batch Accuracy:  96.9%
+Global Step: 595000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 595100, Training Batch Accuracy:  90.6%
+Global Step: 595200, Training Batch Accuracy:  93.8%
+Global Step: 595300, Training Batch Accuracy:  93.8%
+Global Step: 595400, Training Batch Accuracy:  92.2%
+Global Step: 595500, Training Batch Accuracy:  95.3%
+Global Step: 595600, Training Batch Accuracy:  90.6%
+Global Step: 595700, Training Batch Accuracy:  96.9%
+Global Step: 595800, Training Batch Accuracy:  93.8%
+Global Step: 595900, Training Batch Accuracy:  95.3%
+Global Step: 596000, Training Batch Accuracy:  92.2%
+Saved checkpoint.
+Global Step: 596100, Training Batch Accuracy:  96.9%
+Global Step: 596200, Training Batch Accuracy:  95.3%
+Global Step: 596300, Training Batch Accuracy:  96.9%
+Global Step: 596400, Training Batch Accuracy:  90.6%
+Global Step: 596500, Training Batch Accuracy:  96.9%
+Global Step: 596600, Training Batch Accuracy:  93.8%
+Global Step: 596700, Training Batch Accuracy:  98.4%
+Global Step: 596800, Training Batch Accuracy:  95.3%
+Global Step: 596900, Training Batch Accuracy:  82.8%
+Global Step: 597000, Training Batch Accuracy:  98.4%
+Saved checkpoint.
+Global Step: 597100, Training Batch Accuracy:  92.2%
+Global Step: 597200, Training Batch Accuracy:  96.9%
+Global Step: 597300, Training Batch Accuracy:  90.6%
+Global Step: 597400, Training Batch Accuracy:  95.3%
+Global Step: 597500, Training Batch Accuracy:  98.4%
+Global Step: 597600, Training Batch Accuracy:  93.8%
+Global Step: 597700, Training Batch Accuracy:  95.3%
+Global Step: 597800, Training Batch Accuracy:  98.4%
+Global Step: 597900, Training Batch Accuracy:  98.4%
+Global Step: 598000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 598100, Training Batch Accuracy:  96.9%
+Global Step: 598200, Training Batch Accuracy:  95.3%
+Global Step: 598300, Training Batch Accuracy: 100.0%
+Global Step: 598400, Training Batch Accuracy:  93.8%
+Global Step: 598500, Training Batch Accuracy:  85.9%
+Global Step: 598600, Training Batch Accuracy:  96.9%
+Global Step: 598700, Training Batch Accuracy:  95.3%
+Global Step: 598800, Training Batch Accuracy:  98.4%
+Global Step: 598900, Training Batch Accuracy: 100.0%
+Global Step: 599000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 599100, Training Batch Accuracy:  95.3%
+Global Step: 599200, Training Batch Accuracy:  93.8%
+Global Step: 599300, Training Batch Accuracy:  92.2%
+Global Step: 599400, Training Batch Accuracy:  92.2%
+Global Step: 599500, Training Batch Accuracy:  93.8%
+Global Step: 599600, Training Batch Accuracy:  93.8%
+Global Step: 599700, Training Batch Accuracy:  98.4%
+Global Step: 599800, Training Batch Accuracy:  96.9%
+Global Step: 599900, Training Batch Accuracy:  90.6%
+Global Step: 600000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 600100, Training Batch Accuracy:  93.8%
+Global Step: 600200, Training Batch Accuracy:  96.9%
+Global Step: 600300, Training Batch Accuracy:  96.9%
+Global Step: 600400, Training Batch Accuracy:  92.2%
+Global Step: 600500, Training Batch Accuracy:  95.3%
+Global Step: 600600, Training Batch Accuracy:  98.4%
+Global Step: 600700, Training Batch Accuracy:  98.4%
+Global Step: 600800, Training Batch Accuracy:  98.4%
+Global Step: 600900, Training Batch Accuracy:  96.9%
+Global Step: 601000, Training Batch Accuracy:  93.8%
+Saved checkpoint.
+Global Step: 601100, Training Batch Accuracy:  98.4%
+Global Step: 601200, Training Batch Accuracy:  95.3%
+Global Step: 601300, Training Batch Accuracy:  95.3%
+Global Step: 601400, Training Batch Accuracy:  96.9%
+Global Step: 601500, Training Batch Accuracy:  98.4%
+Global Step: 601600, Training Batch Accuracy:  98.4%
+Global Step: 601700, Training Batch Accuracy:  93.8%
+Global Step: 601800, Training Batch Accuracy:  90.6%
+Global Step: 601900, Training Batch Accuracy:  93.8%
+Global Step: 602000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Global Step: 602100, Training Batch Accuracy:  89.1%
+Global Step: 602200, Training Batch Accuracy:  95.3%
+Global Step: 602300, Training Batch Accuracy:  96.9%
+Global Step: 602400, Training Batch Accuracy:  93.8%
+Global Step: 602500, Training Batch Accuracy:  95.3%
+Global Step: 602600, Training Batch Accuracy:  98.4%
+Global Step: 602700, Training Batch Accuracy:  93.8%
+Global Step: 602800, Training Batch Accuracy:  95.3%
+Global Step: 602900, Training Batch Accuracy:  92.2%
+Global Step: 603000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 603100, Training Batch Accuracy:  95.3%
+Global Step: 603200, Training Batch Accuracy:  95.3%
+Global Step: 603300, Training Batch Accuracy:  96.9%
+Global Step: 603400, Training Batch Accuracy:  95.3%
+Global Step: 603500, Training Batch Accuracy:  92.2%
+Global Step: 603600, Training Batch Accuracy:  90.6%
+Global Step: 603700, Training Batch Accuracy:  92.2%
+Global Step: 603800, Training Batch Accuracy:  93.8%
+Global Step: 603900, Training Batch Accuracy: 100.0%
+Global Step: 604000, Training Batch Accuracy:  96.9%
+Saved checkpoint.
+Global Step: 604100, Training Batch Accuracy:  95.3%
+Global Step: 604200, Training Batch Accuracy:  95.3%
+Global Step: 604300, Training Batch Accuracy:  98.4%
+Global Step: 604400, Training Batch Accuracy:  95.3%
+Global Step: 604500, Training Batch Accuracy:  95.3%
+Global Step: 604600, Training Batch Accuracy:  98.4%
+Global Step: 604700, Training Batch Accuracy:  93.8%
+Global Step: 604800, Training Batch Accuracy:  96.9%
+Global Step: 604900, Training Batch Accuracy:  96.9%
+Global Step: 605000, Training Batch Accuracy:  95.3%
+Saved checkpoint.
+Time usage: 3:28:51
+Accuracy on Test-Set: 82.3% (8234 / 10000)
+Example errors:
